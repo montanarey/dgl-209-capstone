@@ -24,47 +24,82 @@
         </nav>
     </header>
 
-    <!--Hero Section-->
-    <div class="hero">
-        <h1>Plant Parents</h1>
-        <h3>Design System</h2>
-    </div>
+    <div class="container">
+
+        <!--Left SideNav (Desktop Only)-->
+        <nav class="sidebar">
+            <ul>
+                <li><a href="styles.html">Styles</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Colours</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Spacing</a></li>
+                    <li><a href="#">Typography</a></li>
+                </ul>
+                <li><a href="navigation.html">Navigation</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Breadcrumbs</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Navbar</a></li>
+                    <li><a href="#">Submenu</a></li>
+                </ul>
+                <li><a href="components.html">Components</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Lists</a></li>
+                    <li><a href="#">Data Visualization</a></li>
+                    <li><a href="#">Cards</a></li>
+                </ul>
+                <li><a href="example.html">Example Site</a></li>
+            </ul>
+        </nav>
+    
+        <!--Right-Side Content (fullscreen on mobile)-->
+        <article>
+            <!--Hero Section-->
+            <div class="hero">
+                <h1>Plant Parents</h1>
+                <h3>Design System</h2>
+            </div>
+                
+            <!--Purpose of Design System (text)-->
+            <p>This design system... (description/introduction)</p>
         
-    <!--Purpose of Design System (text)-->
-    <p>This design system... (description/introduction)</p>
-
-    <!--List of section cards-->
-    <div class="section-list">
-        <h2>Design System Sections</h2>
-        <div class="section-list-item">
-            <h4>Styles</h4>
-            <p>Description of Section</p>
-            <a href="styles.html">Styles</a>
-        </div>
-        <div class="section-list-item">
-            <h4>Navigation</h4>
-            <p>Description of Section</p>
-            <a href="navigation.html">Navigation</a>
-        </div>
-        <div class="section-list-item">
-            <h4>Components</h4>
-            <p>Description of Section</p>
-            <a href="components.html">Components</a>
-        </div>
+            <!--List of section cards-->
+            <div class="section-list">
+                <h2>Design System Sections</h2>
+                <div class="section-list-item">
+                    <h4>Styles</h4>
+                    <p>Description of Section</p>
+                    <a href="styles.html">Styles</a>
+                </div>
+                <div class="section-list-item">
+                    <h4>Navigation</h4>
+                    <p>Description of Section</p>
+                    <a href="navigation.html">Navigation</a>
+                </div>
+                <div class="section-list-item">
+                    <h4>Components</h4>
+                    <p>Description of Section</p>
+                    <a href="components.html">Components</a>
+                </div>
+            </div>
+        
+            <!--Example Site banner-->
+            <div class="banner">
+                <h3>See the Design System live in action</h2>
+                <a href="example.html">View Example Site</a>
+            </div>
+        </article>
     </div>
 
-    <!--Example Site banner-->
-    <div class="banner">
-        <h3>See the Design System live in action</h2>
-        <a href="example.html">View Example Site</a>
-    </div>
 
     <footer>
         <!--Company Name/Logo-->
-        <a href="index.html"><img src="#" alt="Plant Parents Logo"></a>
+        <a href="index.html"><img src="#" alt="Plant Parents Logo" class="logo"></a>
 
         <!--Site Links-->
-        <ul>
+        <ul id="site-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="styles.html">Styles</a></li>
             <li><a href="navigation.html">Navigation</a></li>
@@ -73,7 +108,7 @@
         </ul>
 
         <!--Contact Information-->
-        <div class="contact-info">
+        <div id="contact-info">
             <p>
                 Montana Pistell <br>
                 <a href="https://github.com/montanarey/dgl-209-capstone">Github</a> <br>
