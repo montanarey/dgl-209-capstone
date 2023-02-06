@@ -24,14 +24,19 @@
     --light-grey: #ABB9B9;
 }
 
+a {
+    color: var(--dark-blue);
+}
+
 /* Header */
 header {
-    background-color: darkgray;
+    background-color: var(--dark-blue);
     display: flex;
     justify-content: space-between;
 }
 header > a, header > nav {
     padding: 1em;
+    color: var(--cream);
 }
 
 /* Container Layout */
@@ -41,7 +46,7 @@ header > a, header > nav {
 
 /* Sidebar Navigation */
 .sidebar {
-    background-color: green;
+    background-color: var(--cream);
     width: 20%;
     padding: 1em;
 }
@@ -60,7 +65,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: bisque;
+    background-color: var(--green);
 }
 
 footer > * {
