@@ -16,6 +16,14 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+:root {
+    --dark-blue: #2F3E46;
+    --green: #6B9E82;
+    --light-blue: #A6D5DD;
+    --cream: #F2F8F3;
+    --light-grey: #ABB9B9;
+}
+
 /* Header */
 header {
     background-color: darkgray;
