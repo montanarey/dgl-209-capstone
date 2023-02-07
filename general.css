@@ -146,8 +146,8 @@ footer > * {
     }
 
     .mobile-nav-menu-item {
-        margin: 2.5rem 0;
-        border-bottom: #2F3E46;
+        padding: 1.5em;
+        border-bottom: 1px solid var(--dark-blue);
     }
 
     .mobile-nav-menu.active {
