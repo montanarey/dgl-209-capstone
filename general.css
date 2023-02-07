@@ -97,16 +97,13 @@ footer > * {
 /* Phones & Tablets */
 @media only screen and (max-width: 768px) {
 
-    .mobile-nav {
-        padding: 1em;
-        display: block;
-    }
-
     .desktop-nav {
         display: none;
     }
-    .mobile-nav > ul {
-        display: none;
+
+    .mobile-nav {
+        padding: 1em;
+        display: block;
     }
 
     .hamburger {
@@ -124,4 +121,25 @@ footer > * {
         background-color: var(--cream);
     }
 
+    .mobile-nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .mobile-nav-menu-item {
+        margin: 2.5rem 0;
+    }
+
+    .mobile-nav-menu.active {
+        left: 0;
+    }
 }
