@@ -1,6 +1,6 @@
 /* 
     Filename: styles.css
-    Purpose: holds style rules for the design system website.
+    Purpose: holds site-widestyle rules for the design system website.
     Author: Montana Pistell
     Last Modified: January 30, 2023
 */
@@ -26,6 +26,10 @@
 
 a {
     color: var(--dark-blue);
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--green)
 }
 
 /* Header */
@@ -59,7 +63,6 @@ article {
     padding: 1em;
 }
 
-
 /* Footer */
 footer {
     display: flex;
@@ -71,3 +74,5 @@ footer {
 footer > * {
     padding: 1em;
 }
+
+/* ---------- Media Queries ---------- */
