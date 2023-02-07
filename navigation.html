@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,51 +9,89 @@
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="design-system.css">
 </head>
+
 <body>
     <header>
         <!--Logo-->
-        <a href="index.html"><img src="#" alt="Plant Parents Logo"></a>
+        <a href="index.html" class="nav-logo">Plant Parents</a>
 
-        <!--Navigation-->
-        <nav>
-            <ul>
-                <li><a href="styles.html">Styles</a></li>
-                <li><a href="navigation.html">Navigation</a></li>
-                <li><a href="components.html">Components</a></li>
-                <li><a href="example.html">Example Site</a></li>
+        <!--Navigation (Mobile Only)-->
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="styles.html">Styles</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="navigation.html">Navigation</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="components.html">Components</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="example.html">Example Site</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
-    <!--Breadcrumbs-->
-    <h1>Design System: Navigation</h1>
-    <p>The navigation section... (description/intro)</p>
+    <div class="container">
+        <!--Navigation (Desktop Only - left)-->
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="styles.html">Styles</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Colours</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Spacing</a></li>
+                    <li><a href="#">Typography</a></li>
+                </ul>
+                <li><a href="navigation.html">Navigation</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Breadcrumbs</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Navbar</a></li>
+                    <li><a href="#">Submenu</a></li>
+                </ul>
+                <li><a href="components.html">Components</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Lists</a></li>
+                    <li><a href="#">Data Visualization</a></li>
+                    <li><a href="#">Cards</a></li>
+                </ul>
+                <li><a href="example.html">Example Site</a></li>
+            </ul>
+        </nav>
 
-    <!--List of section cards-->
-    <div class="subsection-list">
-        <h2>Navigation Elements</h2>
-        <div class="subsection-list-item">
-            <h4>Navbar</h4>
-            <p>Description of Section</p>
-            <a href="#">Navbar</a>
-        </div>
-        <div class="subsection-list-item">
-            <h4>Submenu</h4>
-            <p>Description of Section</p>
-            <a href="#">Submenu</a>
-        </div>
-        <div class="subsection-list-item">
-            <h4>Buttons</h4>
-            <p>Description of Section</p>
-            <a href="#">Buttons</a>
-        </div>
-        <div class="subsection-list-item">
-            <h4>Breadcrumbs</h4>
-            <p>Description of Section</p>
-            <a href="#">Breadcrumbs</a>
-        </div>
+        <article>
+
+            <!--Breadcrumbs-->
+            <h1>Design System: Navigation</h1>
+            <p>The navigation section... (description/intro)</p>
+
+            <!--List of section cards-->
+            <div class="subsection-list">
+                <h2>Navigation Elements</h2>
+                <div class="subsection-list-item">
+                    <h4>Navbar</h4>
+                    <p>Description of Section</p>
+                    <a href="#">Navbar</a>
+                </div>
+                <div class="subsection-list-item">
+                    <h4>Submenu</h4>
+                    <p>Description of Section</p>
+                    <a href="#">Submenu</a>
+                </div>
+                <div class="subsection-list-item">
+                    <h4>Buttons</h4>
+                    <p>Description of Section</p>
+                    <a href="#">Buttons</a>
+                </div>
+                <div class="subsection-list-item">
+                    <h4>Breadcrumbs</h4>
+                    <p>Description of Section</p>
+                    <a href="#">Breadcrumbs</a>
+                </div>
+            </div>
+        </article>
     </div>
-
     <footer>
         <!--Company Name/Logo-->
         <a href="index.html"><img src="#" alt="Plant Parents Logo"></a>
@@ -75,5 +114,7 @@
             </p>
         </div>
     </footer>
+    <script src="general.js"></script>
 </body>
+
 </html>

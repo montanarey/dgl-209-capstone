@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,53 +9,95 @@
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="design-system.css">
 </head>
+
 <body>
     <header>
         <!--Logo-->
-        <a href="index.html"><img src="#" alt="Plant Parents Logo"></a>
+        <a href="index.html" class="nav-logo">Plant Parents</a>
 
-        <!--Navigation-->
-        <nav>
+        <!--Navigation (Mobile Only)-->
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="styles.html">Styles</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="navigation.html">Navigation</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="components.html">Components</a></li>
+                <li class="mobile-nav-menu-item"><a class="mobile-nav-link" href="example.html">Example Site</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <!--Navigation (Desktop Only - left)-->
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="styles.html">Styles</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Colours</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Spacing</a></li>
+                    <li><a href="#">Typography</a></li>
+                </ul>
                 <li><a href="navigation.html">Navigation</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Breadcrumbs</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Navbar</a></li>
+                    <li><a href="#">Submenu</a></li>
+                </ul>
                 <li><a href="components.html">Components</a></li>
+                <ul class="sub-links">
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Lists</a></li>
+                    <li><a href="#">Data Visualization</a></li>
+                    <li><a href="#">Cards</a></li>
+                </ul>
                 <li><a href="example.html">Example Site</a></li>
             </ul>
         </nav>
-    </header>
-    
-    <h1>Design System: Example Site</h1>
-    <p>This example site... (description/introduction)</p>
 
-    <!--Navbar-->
-    <nav>
-        <ul>
-            <li><a href="#">Item A</a></li>
-            <li><a href="#">Item B</a></li>
-            <li><a href="#">Item C</a></li>
-            <li><a href="#">Item D</a></li>
-        </ul>
-    </nav>
+        <!--Right-Side Content (fullscreen on mobile)-->
+        <article>
+            <h1>Design System: Example Site</h1>
+            <p>This example site... (description/introduction)</p>
 
-    <!--Cards-->
-    <div class="card-list">
-        <div class="card">
-            <h3>Plant Name</h3>
-            <img src="#" alt="Image of Plant">
-            <p>description of plant...</p>
-            <ul>
-                <li>Plant info:</li>
-                <li>Plant info:</li>
-                <li>Plant info:</li>
-            </ul>
-            <div class="data">data visualization here</div>
-            <button>More Info</button>
-        </div>
+            <!--Navbar-->
+            <nav>
+                <ul>
+                    <li><a href="#">Item A</a></li>
+                    <li><a href="#">Item B</a></li>
+                    <li><a href="#">Item C</a></li>
+                    <li><a href="#">Item D</a></li>
+                </ul>
+            </nav>
+
+            <!--Cards-->
+            <div class="card-list">
+                <div class="card">
+                    <h3>Plant Name</h3>
+                    <img src="#" alt="Image of Plant">
+                    <p>description of plant...</p>
+                    <ul>
+                        <li>Plant info:</li>
+                        <li>Plant info:</li>
+                        <li>Plant info:</li>
+                    </ul>
+                    <div class="data">data visualization here</div>
+                    <button>More Info</button>
+                </div>
+            </div>
+
+            <!--Contact Form-->
+            <form action="POST">form contents</form>
+        </article>
+
     </div>
 
-    <!--Contact Form-->
-    <form action="POST">form contents</form>
 
     <footer>
         <!--Company Name/Logo-->
@@ -78,6 +121,7 @@
             </p>
         </div>
     </footer>
-    
+    <script src="general.js"></script>
 </body>
+
 </html>
