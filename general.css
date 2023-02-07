@@ -38,9 +38,13 @@ header {
     display: flex;
     justify-content: space-between;
 }
-header > a, header > nav {
+header > a {
     padding: 1em;
     color: var(--cream);
+}
+.mobile-nav {
+    padding: 1em;
+    display: none;
 }
 
 /* Container Layout */
@@ -48,8 +52,8 @@ header > a, header > nav {
     display: flex;
 }
 
-/* Sidebar Navigation */
-.sidebar {
+/* Desktop Navigation */
+.desktop-nav {
     background-color: var(--cream);
     width: 20%;
     padding: 1em;
@@ -76,3 +80,17 @@ footer > * {
 }
 
 /* ---------- Media Queries ---------- */
+
+/* Phones & Tablets */
+@media only screen and (max-width: 768px) {
+
+    .mobile-nav {
+        padding: 1em;
+        display: block;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+}
