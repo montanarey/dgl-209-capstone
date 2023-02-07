@@ -7,9 +7,12 @@ console.log("js linked correctly");
 
 const hamburger = document.querySelector(".hamburger");
 const mobileNavMenu = document.querySelector(".mobile-nav-menu");
+const navLinks = document.querySelectorAll(".mobile-nav-link");
 
 console.log(hamburger);
 hamburger.addEventListener('click', openMenu);
+
+navLinks.forEach(link => link.addEventListener('click', closeMenu));
 
 function openMenu() {
     console.log("menu toggled");
