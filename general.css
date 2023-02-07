@@ -5,6 +5,12 @@
     Last Modified: January 30, 2023
 */
 
+/* 
+    Attributions: 
+    Mobile Navbar Menu using HTML, CSS and JS
+    https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci 
+*/
+
 /* ---------- Site-Wide Styles ---------- */
 
 * {
@@ -37,13 +43,20 @@ header {
     background-color: var(--dark-blue);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-header > a {
-    padding: 1em;
+.nav-logo {
+    font-size: 1.6em;
+    font-weight: 600;
     color: var(--cream);
+    height: fit-content;
+    margin: 1em;
 }
-.mobile-nav {
-    padding: 1em;
+.nav-logo:hover {
+    color: var(--cream);
+    text-decoration: none;
+}
+.mobile-nav, .hamburger {
     display: none;
 }
 
@@ -91,6 +104,24 @@ footer > * {
 
     .desktop-nav {
         display: none;
+    }
+    .mobile-nav > ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 1em;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--cream);
     }
 
 }
