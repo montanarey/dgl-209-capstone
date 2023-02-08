@@ -19,12 +19,17 @@
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/fiddlehead-fig.jpg");
-    height: fit-content;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/fiddlehead-fig.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-items: center;
 }
+
 .hero > h1 {
     width: 100%;
     color: var(--cream);
@@ -35,13 +40,62 @@
 
 /* Introduction */
 .introduction {
+    font-weight: 300;
     padding: 1em;
-    background-color: var(--light-blue);
+    color: white;
+    background-color: var(--green);
 }
 
-/* Section Cards */
 
+/* ---------- Section Cards ---------- */
+.section-list {
+    width: 100%;
+}
 
+.section-list-item {
+    display: flex;
+    margin: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
 
-/* ---------- Sections ---------- */
+.section-list-item > img {
+    width: 40%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
+.details {
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.details > h2 {
+    margin-bottom: 25px;
+}
+
+.details > p > a {
+    color: var(--green);
+    transition: all 0.3s ease-in-out;
+}
+
+.details > p > a:hover {
+    color: var(--dark-blue);
+}
+
+.button {
+    margin-top: 25px;
+    width: fit-content;
+    padding: 10px 25px;
+    background-color: var(--green);
+    border-radius: 2px;
+    color: var(--cream);
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: var(--dark-blue);
+    text-decoration: none;
+    color: var(--cream);
+}
