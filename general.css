@@ -1,8 +1,8 @@
 /* 
-    Filename: styles.css
+    Filename: general.css
     Purpose: holds site-widestyle rules for the design system website.
     Author: Montana Pistell
-    Last Modified: January 30, 2023
+    Last Modified: 
 */
 
 /* 
@@ -12,7 +12,6 @@
 */
 
 /* ---------- Site-Wide Styles ---------- */
-
 * {
     list-style: none;
     text-decoration: none;
@@ -38,7 +37,7 @@ a:hover {
     color: var(--green)
 }
 
-/* Header */
+/* ---------- Header ---------- */
 header {
     background-color: var(--dark-blue);
     display: flex;
@@ -60,12 +59,12 @@ header {
     display: none;
 }
 
-/* Container Layout */
+/* ---------- Container Layout ---------- */
 .container {
     display: flex;
 }
 
-/* Desktop Navigation */
+/* ---------- Desktop Navigation----------  */
 .desktop-nav {
     background-color: var(--cream);
     width: 20%;
@@ -75,12 +74,13 @@ header {
     padding: 0 0 1em 1em;
 }
 
-/* Right-Side Content (fullscreen on mobile) */
+/* ---------- Right-Side Content (fullscreen on mobile) ---------- */
 article {
-    padding: 1em;
+    width: 80%;
 }
 
-/* Footer */
+
+/* ---------- Footer ---------- */
 footer {
     display: flex;
     justify-content: space-around;
@@ -152,5 +152,8 @@ footer > * {
 
     .mobile-nav-menu.active {
         left: 0;
+    }
+    article {
+        width: 100%;
     }
 }
