@@ -84,39 +84,31 @@ article {
 /* ---------- Footer ---------- */
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--dark-blue);
     flex-wrap: wrap;
 }
 
 footer > * {
-    padding: 1em;
+    padding: 2em;
     color: var(--cream);
-}
-
-.footer-logo {
-    /* width: 100%; */
-}
-
-.site-links {
-    text-align: center;
 }
 
 .contact-info {
     text-align: right;
 }
 
-.site-links, .contact-info {
-    /* width: 50%; */
-    padding: 2em;
+.contact-info > h4 {
+    padding-bottom: 10px;
+    font-weight: 800;
 }
 
-.site-links > li > a, .contact-info > p > a {
+.contact-info > p > a {
     color: var(--cream);
 }
 
-.site-links > li > a:hover, .contact-info > p > a:hover {
+.contact-info > p > a:hover {
     color: var(--light-blue);
 }
 
@@ -195,6 +187,14 @@ footer > * {
 
     footer {
         flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-logo {
+        padding-bottom: 1em;
+    }
+
+    .contact-info {
         text-align: center;
     }
 }
