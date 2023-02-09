@@ -86,12 +86,40 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--green);
+    background-color: var(--dark-blue);
+    flex-wrap: wrap;
 }
 
 footer > * {
     padding: 1em;
+    color: var(--cream);
 }
+
+.footer-logo {
+    /* width: 100%; */
+}
+
+.site-links {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.site-links, .contact-info {
+    /* width: 50%; */
+    padding: 2em;
+}
+
+.site-links > li > a, .contact-info > p > a {
+    color: var(--cream);
+}
+
+.site-links > li > a:hover, .contact-info > p > a:hover {
+    color: var(--light-blue);
+}
+
 
 /* ---------- Media Queries ---------- */
 
@@ -101,6 +129,7 @@ footer > * {
     .desktop-nav {
         display: none;
     }
+
     .nav-logo {
         margin: 1em;
     }
@@ -124,6 +153,7 @@ footer > * {
         transition: all 0.3s ease-in-out;
         background-color: var(--cream);
     }
+
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
@@ -158,7 +188,13 @@ footer > * {
     .mobile-nav-menu.active {
         left: 0;
     }
+
     article {
         width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
     }
 }
