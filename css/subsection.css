@@ -1,0 +1,18 @@
+/* 
+    Filename: subsection.css
+    Purpose: holds style rules for the subsection pages of the design system website.
+    Author: Montana Pistell
+    Last Modified: 
+*/
+
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 25px;
+    color: var(--dark-blue);
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs a {
+    color: var(--green);
+}

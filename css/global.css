@@ -143,6 +143,7 @@ footer > * {
     .hamburger {
         display: block;
         margin: 1em;
+        cursor: pointer;
     }
 
     .bar {
