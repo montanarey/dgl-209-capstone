@@ -101,7 +101,7 @@ footer {
 }
 
 footer > * {
-    padding: 2em;
+    padding: 25px;
     color: var(--cream);
 }
 
@@ -119,13 +119,8 @@ footer > * {
 }
 
 .contact-info > p > a {
-    color: var(--cream);
-}
-
-.contact-info > p > a:hover {
     color: var(--light-blue);
 }
-
 
 /* ---------- Media Queries ---------- */
 
