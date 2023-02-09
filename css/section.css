@@ -16,7 +16,6 @@
 
 /* ---------- Home ---------- */
 
-
 /* Hero Section */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/images/houseplants-row.jpg");
@@ -28,7 +27,6 @@
     flex-direction: column;
     justify-items: center;
 }
-
 .hero > h1 {
     width: 100%;
     color: var(--cream);
@@ -37,7 +35,6 @@
     padding-top: 1em;
     padding-left: 1em;
 }
-
 .introduction {
     font-weight: 300;
     padding: 2em;
@@ -45,19 +42,17 @@
     color: white;
 }
 
+/* Section Cards */
 
-/* ---------- Section Cards ---------- */
 .section-list {
     width: 100%;
 }
-
 .section-list-item {
     display: flex;
     margin: 1.5em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
 }
-
 .section-list-item > img {
     width: 30%;
     height: 250px;
@@ -65,27 +60,22 @@
     border-radius: 5px;
     overflow: hidden;
 }
-
 .details {
     width: 70%;
     display: flex;
     padding: 1em;
     flex-direction: column;
 }
-
 .details > h2 {
     margin-bottom: 25px;
 }
-
 .details > p > a {
     color: var(--green);
     transition: all 0.3s ease-in-out;
 }
-
 .details > p > a:hover {
     color: var(--dark-blue);
 }
-
 .button {
     margin-top: 25px;
     width: fit-content;
@@ -118,4 +108,17 @@
     width: fit-content;
     border: 2px solid var(--dark-blue);
     margin-bottom: 1em;
+}
+
+/* ---------- Section Pages ---------- */
+
+/* Breadcrumbs */
+.breadcrumbs {
+    padding: 25px;
+}
+.breadcrumbs li {
+    display: inline;
+}
+.breadcrumbs a {
+    color: var(--green);
 }
