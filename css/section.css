@@ -32,9 +32,10 @@
 .hero > h1 {
     width: 100%;
     color: var(--cream);
-    text-align: center;
+    text-align: left;
     font-size: xx-large;
     padding-top: 1em;
+    padding-left: 1em;
 }
 
 .introduction {

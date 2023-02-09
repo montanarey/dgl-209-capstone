@@ -45,11 +45,10 @@ header {
     align-items: center;
 }
 .nav-logo {
-    font-size: 1.6em;
-    font-weight: 600;
-    color: var(--cream);
-    height: fit-content;
-    margin: 1em auto;
+    margin: 15px auto;
+}
+.nav-logo > img {
+    width: 300px;
 }
 .nav-logo:hover {
     color: var(--cream);
@@ -103,6 +102,10 @@ footer {
 footer > * {
     padding: 2em;
     color: var(--cream);
+}
+
+.footer-logo > img {
+    width: 300px;
 }
 
 .contact-info {
