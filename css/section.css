@@ -58,13 +58,15 @@
 }
 
 .section-list-item > img {
-    width: 40%;
+    width: 30%;
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .details {
+    width: 70%;
     display: flex;
     padding: 1em;
     flex-direction: column;
