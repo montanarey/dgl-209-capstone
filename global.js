@@ -1,4 +1,15 @@
-/* */
+/* 
+    Filename: global.js
+    Purpose: holds site-wide js functionality for the design system website.
+    Author: Montana Pistell
+    Last Modified: 
+*/
+
+/* 
+    Attributions: 
+    Mobile Navbar Menu using HTML, CSS and JS
+    https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci 
+*/
 
 
 // Mobile Hamburger Menu Functionality

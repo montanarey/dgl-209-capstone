@@ -1,6 +1,6 @@
 /* 
-    Filename: general.css
-    Purpose: holds site-widestyle rules for the design system website.
+    Filename: global.css
+    Purpose: holds site-wide style rules for the design system website.
     Author: Montana Pistell
     Last Modified: 
 */
@@ -49,7 +49,7 @@ header {
     font-weight: 600;
     color: var(--cream);
     height: fit-content;
-    margin: 1em;
+    margin: 1em auto;
 }
 .nav-logo:hover {
     color: var(--cream);
@@ -101,6 +101,9 @@ footer > * {
     .desktop-nav {
         display: none;
     }
+    .nav-logo {
+        margin: 1em;
+    }
 
     .mobile-nav {
         padding: 1em;
@@ -134,7 +137,8 @@ footer > * {
     }
 
     .mobile-nav-menu {
-        position: fixed;
+        position: absolute;
+        z-index: 1;
         left: -100%;
         top: 5.2rem;
         flex-direction: column;
