@@ -32,13 +32,15 @@
     color: var(--cream);
     text-align: left;
     font-size: xx-large;
-    padding-top: 1em;
-    padding-left: 1em;
+    margin-top: 25px;
+    padding: 25px;
 }
 .introduction {
-    font-weight: 300;
-    padding: 2em;
-    margin-bottom: 1em;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 25px;
+    width: 80%;
+    margin-bottom: 25px;
     color: white;
 }
 
@@ -81,7 +83,7 @@
     width: fit-content;
     padding: 10px 25px;
     background-color: var(--green);
-    border-radius: 2px;
+    border-radius: 5px;
     color: var(--cream);
     transition: all 0.3s ease-in-out;
 }
@@ -101,13 +103,21 @@
     height: fit-content;
 }
 .banner h3 {
-    padding: 1em;
+    font-size: 1.5rem;
+    padding: 25px;
 }
 .banner a {
     padding: 10px 25px;
     width: fit-content;
     border: 2px solid var(--dark-blue);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
     margin-bottom: 1em;
+}
+.banner a:hover {
+    text-decoration: none;
+    background-color: var(--dark-blue);
+    color: var(--cream);
 }
 
 /* ---------- Section Pages ---------- */
