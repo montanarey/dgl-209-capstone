@@ -22,24 +22,24 @@
 }
 
 :root {
-    --dark-blue: #2F3E46;
-    --green: #6B9E82;
+    --charcoal: #2F3E46;
+    --leaf-green: #6B9E82;
     --light-blue: #A6D5DD;
     --cream: #F2F8F3;
-    --light-grey: #ABB9B9;
+    --ash-grey: #ABB9B9;
 }
 
 a {
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 a:hover {
     text-decoration: underline;
-    color: var(--green)
+    color: var(--leaf-green)
 }
 
 /* ---------- Header ---------- */
 header {
-    background-color: var(--dark-blue);
+    background-color: var(--charcoal);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ header {
 
 .desktop-nav > h3 {
     font-size: 1.4em;
-    color: var(--dark-blue);
+    color: var(--charcoal);
     margin: 0 0 25px 0;
 }
 .top-links {
@@ -96,7 +96,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--dark-blue);
+    background-color: var(--charcoal);
     flex-wrap: wrap;
 }
 
@@ -184,7 +184,7 @@ footer > * {
 
     .mobile-nav-menu-item {
         padding: 1.5em;
-        border-bottom: 1px solid var(--dark-blue);
+        border-bottom: 1px solid var(--charcoal);
     }
 
     .mobile-nav-menu.active {

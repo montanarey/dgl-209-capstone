@@ -8,13 +8,13 @@
 /* All Subsections */
 .breadcrumbs {
     padding: 25px;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .breadcrumbs li {
     display: inline;
 }
 .breadcrumbs a {
-    color: var(--green);
+    color: var(--leaf-green);
 }
 .title {
     font-size: 2rem;
@@ -24,14 +24,14 @@
     padding-left: 25px;
     padding-bottom: 10px;
     width: 80%;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .section {
     padding-left: 25px;
     padding-bottom: 10px;
     width: 100%;
     margin: 25px 0;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .section h2, .section h3 {
     margin-bottom: 10px;
@@ -40,11 +40,11 @@
     width: 80%;
 }
 .codepen-link {
-    color: var(--green);
+    color: var(--leaf-green);
     text-decoration: underline;
 }
 .codepen-link:hover {
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .example-block {
     max-width: 80%;
@@ -57,7 +57,7 @@
     background-color: white;
 }
 .example-block.negative {
-    background-color: var(--dark-blue);
+    background-color: var(--charcoal);
 }
 
 
@@ -71,10 +71,10 @@
 
 /* Navigation: Breadcrumbs */
 .breadcrumbs.positive {
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .breadcrumbs.positive a {
-    color: var(--green);
+    color: var(--leaf-green);
 }
 .breadcrumbs.negative {
     color: var(--light-blue)

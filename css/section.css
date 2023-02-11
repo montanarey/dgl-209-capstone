@@ -5,15 +5,6 @@
     Last Modified: 
 */
 
-:root {
-    --dark-blue: #2F3E46;
-    --green: #6B9E82;
-    --light-blue: #A6D5DD;
-    --cream: #F2F8F3;
-    --light-grey: #ABB9B9;
-}
-
-
 /* ---------- Home ---------- */
 
 /* Hero Section */
@@ -41,7 +32,7 @@
     padding: 25px;
     width: 80%;
     margin-bottom: 25px;
-    color: white;
+    color: var(--cream);
 }
 
 /* Section Cards */
@@ -72,23 +63,23 @@
     margin-bottom: 25px;
 }
 .details > p > a {
-    color: var(--green);
+    color: var(--leaf-green);
     transition: all 0.3s ease-in-out;
 }
 .details > p > a:hover {
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .button {
     margin-top: 25px;
     width: fit-content;
     padding: 10px 25px;
-    background-color: var(--green);
+    background-color: var(--leaf-green);
     border-radius: 5px;
     color: var(--cream);
     transition: all 0.3s ease-in-out;
 }
 .button:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--charcoal);
     text-decoration: none;
     color: var(--cream);
 }
@@ -109,14 +100,14 @@
 .banner a {
     padding: 10px 25px;
     width: fit-content;
-    border: 2px solid var(--dark-blue);
+    border: 2px solid var(--charcoal);
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
     margin-bottom: 1em;
 }
 .banner a:hover {
     text-decoration: none;
-    background-color: var(--dark-blue);
+    background-color: var(--charcoal);
     color: var(--cream);
 }
 
@@ -125,13 +116,13 @@
 /* Breadcrumbs */
 .breadcrumbs {
     padding: 25px;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .breadcrumbs li {
     display: inline;
 }
 .breadcrumbs a {
-    color: var(--green);
+    color: var(--leaf-green);
 }
 
 /* Page Title and Description */
@@ -143,7 +134,7 @@ h1, .section-description {
     padding-left: 25px;
     padding-bottom: 10px;
     width: 80%;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 
 /* Subsection Cards */
@@ -152,14 +143,14 @@ h1, .section-description {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 25px;
-    color: var(--dark-blue);
+    color: var(--charcoal);
 }
 .subsection-list-item {
     margin-bottom: 50px; 
     width: 50%;
 }
 .subsection-list-item h4 {
-    background-color: var(--light-grey);
+    background-color: var(--ash-grey);
     padding: 10px;
 }
 .subsection-list-item p {
@@ -170,12 +161,12 @@ h1, .section-description {
     display: block;
     width: fit-content;
     padding: 10px;
-    border: 2px solid var(--green);
+    border: 2px solid var(--leaf-green);
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
 .subsection-list-item a:hover {
-    background-color: var(--green);
+    background-color: var(--leaf-green);
     color: var(--cream);
     text-decoration: none;
 }
