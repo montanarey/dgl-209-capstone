@@ -132,27 +132,40 @@ h1 {
 h1, .section-description {
     padding-left: 25px;
     padding-bottom: 10px;
+    width: 80%;
     color: var(--dark-blue);
 }
 
 /* Subsection Cards */
 .subsection-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 25px;
+    color: var(--dark-blue);
 }
 .subsection-list-item {
-    margin-bottom: 25px; 
-    border: 2px solid var(--light-grey);
-    border-radius: 5px;
+    margin-bottom: 50px; 
+    width: 50%;
 }
 .subsection-list-item h4 {
     background-color: var(--light-grey);
     padding: 10px;
 }
 .subsection-list-item p {
-    padding: 10px;
+    padding: 10px 0;
+    width: 80%;
 }
 .subsection-list-item a {
-    margin: 10px auto;
+    display: block;
+    width: fit-content;
     padding: 10px;
-    border: 2px solid var(--light-blue);
+    border: 2px solid var(--green);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.subsection-list-item a:hover {
+    background-color: var(--green);
+    color: var(--cream);
+    text-decoration: none;
 }
