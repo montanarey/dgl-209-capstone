@@ -148,12 +148,13 @@ footer > * {
 
     .bar {
         display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px 0;
+        width: 30px;
+        height: 4px;
+        margin: 6px 0;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
         background-color: var(--cream);
+        border-radius: 5px;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -178,8 +179,7 @@ footer > * {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        box-shadow:
-            0 10px 27px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
 
     .mobile-nav-menu-item {
