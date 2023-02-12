@@ -92,13 +92,31 @@
                 <p>For all image usages on Plant Parent digital products, high-quality images must be chosen, in png or jpeg format. If using the inline image method,
                     use a image with any aspect ratio inside a div element, then crop using CSS properties on the image's containing div. If using the background-image 
                     method, ensure your image is at least wide and tall enough to fit the element you're using it as a background for, then use CSS properties to set the 
-                    image to cover. 
+                    image to cover.<br><br>
 
+                    In most cases, the inline-image method is most appropriate. When implementing the inline-image method, add a class to your containing div to indicate the 
+                    dimensions or orientation you need, then add CSS to that class to crop the image. In addition, add CSS to the image itself to have the width and height inherited 
+                    from the container, set object-fit to cover, set the border radius, and adjust the object-position as desired.<br><br>
+                    
                     In general photos should have a corner radius of 5px, and have no border, unless otherwise directed by the use cases below.
-                    <a href="#" target="_blank">View on Codepen</a>
+                    <a href="https://codepen.io/MontanaRey/pen/RwYbRVB" target="_blank">View on Codepen</a>
                 </p>
-                <div class="example-block">
-                    ...
+                <div class="images-group">
+                    <div class="example-block image">
+                        <div class="general-img landscape">
+                            <img src="/images/hoya.jpg" alt="alt text">
+                        </div>
+                    </div>
+                    <div class="example-block image">
+                        <div class="general-img portrait">
+                            <img src="/images/hoya.jpg" alt="alt text">
+                        </div>
+                    </div>
+                    <div class="example-block image">
+                        <div class="general-img square">
+                            <img src="/images/hoya.jpg" alt="alt text">
+                        </div>
+                    </div>
                 </div>
 
                 <h3>Avatar Images</h3>

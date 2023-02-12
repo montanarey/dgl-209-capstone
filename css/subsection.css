@@ -111,6 +111,38 @@ p.color-codes {
 }
 
 /* ----- Styles: Images ----- */
+div.images-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+.example-block.image {
+  width: fit-content;
+  height: fit-content;
+  margin: 10px;
+}
+/* General Images */
+.general-img img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.general-img.square {
+  width: 200px;
+  height: 200px;
+}
+.general-img.portrait {
+  width: 200px;
+  height: 400px;
+}
+.general-img.landscape {
+  width: 400px;
+  height: 200px;
+}
+
 /* Hero Images */
 .sample-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
