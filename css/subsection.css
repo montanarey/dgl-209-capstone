@@ -112,7 +112,7 @@ p.color-codes {
 
 /* ----- Styles: Images ----- */
 div.images-group {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   margin: 25px 0;
@@ -141,6 +141,18 @@ div.images-group {
 .general-img.landscape {
   width: 400px;
   height: 200px;
+}
+
+/* Card Images */
+div.cards-group {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0;
+}
+.cards-group .example-block {
+  height: fit-content;
+  margin: 10px;
 }
 
 /* Hero Images */
