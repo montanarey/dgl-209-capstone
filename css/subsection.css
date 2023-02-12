@@ -41,11 +41,11 @@
 .section p {
   width: 80%;
 }
-.codepen-link {
+.section p a {
   color: var(--leaf-green);
   text-decoration: underline;
 }
-.codepen-link:hover {
+.section p a:hover {
   color: var(--charcoal);
 }
 .example-block {
