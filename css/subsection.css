@@ -193,7 +193,7 @@ div.mobile {
     background-color: var(--ash-grey);
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 .mobile .sample-nav-menu.active {
@@ -220,6 +220,7 @@ div.mobile {
 */
 .submenu-sample {
     height: 300px;
+    position:relative;
 }
 .submenu-sample .nav {
     background-color: var(--charcoal);
@@ -248,7 +249,6 @@ div.mobile {
   }
   .submenu {
     float: right;
-    /* overflow: hidden; */
   }
   .submenu-content {
     display: none;
@@ -267,7 +267,7 @@ div.mobile {
   .submenu-item {
     padding: 10px;
   }
-  .submenu-item-link {
+  .submenu-sample .submenu-item-link {
     text-align: center;
     color: var(--charcoal);
   }
