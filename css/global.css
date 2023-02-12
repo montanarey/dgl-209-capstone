@@ -20,7 +20,6 @@
     padding: 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 :root {
     --charcoal: #2F3E46;
     --leaf-green: #6B9E82;
@@ -28,7 +27,6 @@
     --cream: #F2F8F3;
     --ash-grey: #ABB9B9;
 }
-
 a {
     color: var(--charcoal);
 }
@@ -69,7 +67,6 @@ header {
     width: 250px;
     padding: 25px;
 }
-
 .desktop-nav > h3 {
     font-size: 1.4em;
     color: var(--charcoal);
@@ -79,7 +76,6 @@ header {
     font-weight: 600;
     margin: 25px 0 10px 0;
 }
-
 .sub-links {
     margin: 0 0 0 15px;
 }
@@ -90,7 +86,6 @@ article {
     height: fit-content;
 }
 
-
 /* ---------- Footer ---------- */
 footer {
     display: flex;
@@ -99,25 +94,20 @@ footer {
     background-color: var(--charcoal);
     flex-wrap: wrap;
 }
-
 footer > * {
     padding: 25px;
     color: var(--cream);
 }
-
 .footer-logo > img {
     width: 300px;
 }
-
 .contact-info {
     text-align: right;
 }
-
 .contact-info > h4 {
     padding-bottom: 10px;
     font-weight: 800;
 }
-
 .contact-info > p > a {
     color: var(--light-blue);
 }
@@ -126,26 +116,21 @@ footer > * {
 
 /* Phones & Tablets */
 @media only screen and (max-width: 768px) {
-
     .desktop-nav {
         display: none;
     }
-
     .nav-logo {
         margin: 1em;
     }
-
     .mobile-nav {
         padding: 1em;
         display: block;
     }
-
     .hamburger {
         display: block;
         margin: 1em;
         cursor: pointer;
     }
-
     .bar {
         display: block;
         width: 30px;
@@ -156,19 +141,15 @@ footer > * {
         background-color: var(--cream);
         border-radius: 5px;
     }
-
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
-
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
     .mobile-nav-menu {
         position: absolute;
         z-index: 1;
@@ -181,29 +162,23 @@ footer > * {
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
-
     .mobile-nav-menu-item {
         padding: 1.5em;
         border-bottom: 1px solid var(--charcoal);
     }
-
     .mobile-nav-menu.active {
         left: 0;
     }
-
     article {
         width: 100%;
     }
-
     footer {
         flex-direction: column;
         text-align: center;
     }
-
     .footer-logo {
         padding-bottom: 1em;
     }
-
     .contact-info {
         text-align: center;
     }

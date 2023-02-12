@@ -89,23 +89,54 @@
                 <h2 class="section-title">Image Variations and Guidelines</h2>
 
                 <h3>General Image Use</h3>
-                <p>... 
+                <p>For all image usages on Plant Parent digital products, high-quality images must be chosen, in png or jpeg format. If using the inline image method,
+                    use a image with any aspect ratio inside a div element, then crop using CSS properties on the image's containing div. If using the background-image 
+                    method, ensure your image is at least wide and tall enough to fit the element you're using it as a background for, then use CSS properties to set the 
+                    image to cover. 
+
+                    In general photos should have a corner radius of 5px, and have no border, unless otherwise directed by the use cases below.
                     <a href="#" target="_blank">View on Codepen</a>
                 </p>
                 <div class="example-block">
-
+                    ...
                 </div>
 
-                <h3>Avatars Image Use</h3>
+                <h3>Avatar Images</h3>
                 <p>When developing avatars, please refer to the <a href="/Components/avatars.html">Avatars section</a> of this design system. Avatar 
-                    images should be cropped to circles and given a 1px border in the brand colour Charcoal. These styles should be applied using the CSS 
-                    classes demonstrated in the Avatars section. <a href="#"  class="codepen-link" target="_blank">View on Codepen</a>
+                    images should be implemented as inline images, then cropped to circles and given a 1px border in the brand colour Charcoal. These styles should be applied using the CSS 
+                    classes demonstrated in the Avatars section. Since the images are cropped via CSS, a specified aspect ratio is not required. 
+                    <a href="https://codepen.io/MontanaRey/pen/oNMKJWO" target="_blank">View on Codepen</a>
                 </p>
+                <div class="example-block">
+                    ...
+                </div>
+
+                <h3>Card Images</h3>
+                <p>When developing cards, please refer to the <a href="/Components/cards.html">Cards section</a> of this design system. 
+                    Similar to avatar images, card images should be implemented as inline images, then cropped using CSS properties. However, card images 
+                    should match the border-radius of their card, 5px, and do not have a border. Since the images are cropped via CSS, a specified aspect ratio is not required. 
+                    View <a href="https://codepen.io/MontanaRey/pen/ZEjgmrB" target="_blank">Vertical Cards</a> and <a href="https://codepen.io/MontanaRey/pen/dyjxgwR" target="_blank">Horizontal Cards</a> on Codepen.
+                </p>
+                <div class="example-block">
+                    ...
+                </div>
+
+                <h3>Hero Images</h3>
+                <p>When implementing a Hero image such as the one on the <a href="/index.html">Plant Parents Design System home page</a>, use the background-image property to add 
+                    the image to your container, with a gradient overlay as used in the example below. Do not use rounded corners or borders on hero images. 
+                    <a href="https://codepen.io/MontanaRey/pen/oNPvxOZ" target="_blank">View on Codepen</a>
+                </p>
+                <div class="example-block">
+                    <div class="sample-hero">
+                        <h1>Main Heading</h1>
+                        <p>Hero content, perhaps a description of the page or intended use.</p>
+                        <a href="#" class="button solid light-blue">Click Me</a>
+                      </div>
+                </div>
 
             </div>
         </article>
     </div>
-
     <footer>
         <!--Company Name/Logo-->
         <a href="/index.html" class="footer-logo"><img src="/images/plant-parents-logo-white.png" alt="Plant Parents Logo"></a>
