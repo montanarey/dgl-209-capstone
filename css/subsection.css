@@ -139,7 +139,6 @@ div.mobile {
     width: 50%;
 }
 .sample-nav {
-    padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,20 +146,24 @@ div.mobile {
 .sample-nav-logo {
     color: var(--cream);
     font-size: 1.4rem;
+    padding: 25px;
 }
 .sample-hamburger {
+    padding: 25px;
     cursor: pointer;
 }
 .desktop .sample-nav-menu-item {
     display: inline;
-    margin: 0 10px;
+    padding: 29px 25px;
 }
 .desktop .sample-nav-menu-item-link {
     color: var(--cream);
 }
-.desktop .sample-nav-menu-item-link:hover {
-    color: var(--light-blue);
-    text-decoration: underline;
+.desktop .sample-nav-menu-item:hover {
+    background-color: var(--ash-grey);
+}
+.desktop .sample-nav-menu-item:hover .sample-nav-menu-item-link {
+    color: var(--charcoal);
 }
 .desktop .sample-hamburger {
     display: none;
