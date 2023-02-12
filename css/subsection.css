@@ -218,6 +218,62 @@ div.mobile {
     match that of the tutorial. Then I styled the nav and submenu to match my existing navbar. Finally, I applied the CSS rules
     to my submenu elements one by one from the tutorial, modifying to fit my specific goals as needed.
 */
+.submenu-sample {
+    height: 300px;
+}
+.submenu-sample .nav {
+    background-color: var(--charcoal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .submenu-sample .nav-logo {
+    color: var(--cream);
+    padding: 25px;
+    font-size: 1.4rem;
+    margin: 0;
+  }
+  .submenu-sample .nav-menu-item, .submenu-sample .nav-menu-item.submenu-button {
+    display: inline;
+    padding: 29px 25px;
+  }
+  .submenu-sample .nav-menu-item-link {
+    color: var(--cream);
+  }
+  .submenu-sample .nav-menu-item:hover {
+    background-color: var(--ash-grey);
+  }
+  .submenu-sample .nav-menu-item:hover .nav-menu-item-link {
+    color: var(--charcoal);
+  }
+  .submenu {
+    float: right;
+    /* overflow: hidden; */
+  }
+  .submenu-content {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 76px;
+    background-color: var(--ash-grey);
+    width: 100%;
+    z-index: 1;
+  }
+  .submenu:hover .submenu-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .submenu-item {
+    padding: 10px;
+  }
+  .submenu-item-link {
+    text-align: center;
+    color: var(--charcoal);
+  }
+  .submenu-item-link:hover {
+    text-decoration: underline;
+  }
 
 
 /* Components: Cards */

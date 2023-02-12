@@ -72,20 +72,49 @@
 
             <!--Page Title and Description-->
             <h1 class="title">Navigation: Submenus</h1>
-            <p class="description">The submenus section... (description/intro)</p>
+            <p class="description">Use submenus on desktop devices to allow a user to hover over an element
+                to view sublinks pertaining to that element. A method of offering a detailed navbar without
+                using an overwhelming number of top-level nav links.
+            </p>
 
             <!--Creating Submenus-->
             <div class="section">
                 <h2 class="section-title">Creating Submenus</h2>
-                <p class="section-description">...</p>
+                <p class="section-description">To create a submenu, start with a functioning navbar implemented
+                    as detailed in the <a href="/Navigation/navbars.html">Navbars section</a>. Then add HTML 
+                    structure for a submenu, and use CSS style rules to hide and style the navbar, as well as 
+                    reveal it upon hovering the parent navbar link.
+                </p>
             </div>
 
             <!--Submenu Variations with Examples-->
+            <!--Code adapted from W3Schools's CSS Subnav Tutorial: https://www.w3schools.com/howto/howto_css_subnav.asp
+                Adaptations: First I created my HTML structure based on my existing Navbars, then modified the last element to
+                match that of the tutorial. Then I styled the nav and submenu to match my existing navbar. Finally, I applied the CSS rules
+                to my submenu elements one by one from the tutorial, modifying to fit my specific goals as needed.
+            -->
             <div class="section">
                 <h2 class="section-title">Submenu Example</h2>
-                <p>To be used on desktop devices via media queries. Not intended for mobile use. <a href="#" class="codepen-link" target="_blank">View on Codepen</a></p>
-                <div class="example-block submenu-desktop">
-
+                <p>To be used on desktop devices via media queries. Not intended for mobile use. 
+                    <a href="https://codepen.io/MontanaRey/pen/xxJvBEr" class="codepen-link" target="_blank">View on Codepen</a></p>
+                
+                    <div class="example-block submenu-sample">
+                    <nav class="nav">
+                        <a href="#" class="nav-logo">LOGO</a>
+                        <ul class="nav-menu">
+                          <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Page 1</a></li>
+                          <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Page 2</a></li>
+                          <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Page 3</a></li>
+                          <div class="submenu">
+                            <li class="nav-menu-item submenu-button"><a class="nav-menu-item-link" href="#">Submenu</a></li>
+                            <div class="submenu-content">
+                              <li class="submenu-item"><a class="submenu-item-link" href="#">Submenu Item 1</a></li>
+                              <li class="submenu-item"><a class="submenu-item-link" href="#">Submenu Item 2</a></li>
+                              <li class="submenu-item"><a class="submenu-item-link" href="#">Submenu Item 3</a></li>
+                            </div>
+                          </div>
+                        </ul>
+                      </nav>
                 </div>
             </div>
 
