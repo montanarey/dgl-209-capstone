@@ -386,6 +386,80 @@ div.mobile {
 }
 
 /* ----- Components: Cards ----- */
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card-button {
+  margin-top: 25px;
+  width: fit-content;
+  padding: 15px 30px;
+  background-color: var(--leaf-green);
+  border-radius: 5px;
+  font-weight: 500;
+  color: var(--cream);
+  transition: all 0.3s ease-in-out;
+}
+.card-button:hover {
+  background-color: var(--charcoal);
+  color: var(--cream);
+  text-decoration: none;
+}
+
+/* Horizontal Cards */
+.card.horizontal {
+  flex-direction: row;
+}
+.horizontal .card-img {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.horizontal .card-content {
+  width: 70%;
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+}
+.horizontal .card-title {
+  margin-bottom: 25px;
+}
+
+/* Vertical Cards */
+.example-block.vertical-card {
+  width: fit-content;
+}
+.card.vertical {
+  width: fit-content;
+  flex-direction: column;
+}
+.vertical .card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.vertical .card-content {
+  width: 100%;
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  text-align: center;
+}
+.vertical .card-content p {
+  width: 100%;
+}
+.vertical .card-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.vertical .card-button {
+  margin: 25px auto;
+}
 
 /* ----- Components: Avatars ----- */
 .avatar-group {

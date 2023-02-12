@@ -74,8 +74,56 @@
             </ul>
 
             <!--Page Title and Description-->
-            <h1>Components: Cards</h1>
-            <p class="section-description">The cards section... (description/intro)</p>
+            <h1 class="title">Components: Cards</h1>
+            <p class="description">Use cards to display groups of related content in an easy-to-read 
+                layout.
+            </p>
+
+            <!--Creating Cards-->
+            <div class="section">
+                <h2 class="section-title">Creating Cards</h2>
+                <p class="section-description">Whether creating horizontal or vertical cards, the HTML structure is the same.
+                    Create a div element for the card itself, then create an img element inside, along with a second div to hold
+                    the rest of the card's content. Inside the inner div element, add your heading, body content, and button as appropriate.
+                </p>
+            </div>
+
+            <!--Card Variations-->
+            <div class="section">
+                <h2 class="section-title">Card Variations</h2>
+
+                <h3>Card: Horizontal</h3>
+                <p>Follow this example to build horizontal cards. The horizontal cards are intended 
+                    for use in a vertical layout of cards. 
+                    <a href="https://codepen.io/MontanaRey/pen/dyjxgwR"  class="codepen-link" target="_blank">View on Codepen</a>
+                </p>
+                <div class="example-block">
+                    <div class="card horizontal">
+                        <img src="/images/hoya.jpg" class="card-img" alt="photo of plant">
+                        <div class="card-content">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>Information about Card's topic</p>
+                            <a class="card-button" href="#">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Card: Vertical</h3>
+                <p>Follow this example to build vertical cards. The vertical cards are intended 
+                    for use in either a horizontal, grid, or vertical layout of cards. When designing for 
+                    mobile, use a vertical layout of cards. <a href="https://codepen.io/MontanaRey/pen/ZEjgmrB"  class="codepen-link" target="_blank">View on Codepen</a>
+                </p>
+                <div class="example-block vertical-card">
+                    <div class="card vertical">
+                        <img src="/images/hoya.jpg" class="card-img" alt="photo of plant">
+                        <div class="card-content">
+                            <h2 class="card-title">Card Title</h2>
+                            <p>Information about Card's topic</p>
+                            <a class="card-button" href="#">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </article>
     </div>
