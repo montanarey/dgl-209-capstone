@@ -5,133 +5,238 @@
     Last Modified: 
 */
 
-/* All Subsections */
+/* ----- All Subsections ------ */
 .breadcrumbs {
-    padding: 25px;
-    color: var(--charcoal);
+  padding: 25px;
+  color: var(--charcoal);
 }
 .breadcrumbs li {
-    display: inline;
+  display: inline;
 }
 .breadcrumbs a {
-    color: var(--leaf-green);
+  color: var(--leaf-green);
 }
 .title {
-    font-size: 2rem;
-    margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
-.title, .description {
-    padding-left: 25px;
-    padding-bottom: 10px;
-    width: 80%;
-    color: var(--charcoal);
+.title,
+.description {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  width: 80%;
+  color: var(--charcoal);
 }
 .section {
-    padding-left: 25px;
-    padding-bottom: 10px;
-    width: 100%;
-    margin: 25px 0;
-    color: var(--charcoal);
+  padding-left: 25px;
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 25px 0;
+  color: var(--charcoal);
 }
-.section h2, .section h3 {
-    margin-bottom: 10px;
+.section h2,
+.section h3 {
+  margin-bottom: 10px;
 }
 .section p {
-    width: 80%;
+  width: 80%;
 }
 .codepen-link {
-    color: var(--leaf-green);
-    text-decoration: underline;
+  color: var(--leaf-green);
+  text-decoration: underline;
 }
 .codepen-link:hover {
-    color: var(--charcoal);
+  color: var(--charcoal);
 }
 .example-block {
-    max-width: 80%;
-    width: auto;
-    margin: 25px 0;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+  max-width: 80%;
+  width: auto;
+  margin: 25px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .example-block.positive {
-    background-color: white;
+  background-color: white;
 }
 .example-block.negative {
-    background-color: var(--charcoal);
+  background-color: var(--charcoal);
 }
 
-
-/* Styles: Colours */
+/* ----- Styles: Colours ----- */
 .color-cards {
-    margin-top: 25px;
-    display: flex;
-    max-width: 90%;
-    flex-direction: row;
-    flex-wrap: wrap;
+  margin-top: 25px;
+  display: flex;
+  max-width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .color-card {
-    width: 210px;
-    margin: 0 20px 20px 0;
+  width: 210px;
+  margin: 0 20px 20px 0;
 }
 .color-swatch {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: end;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: end;
 }
 .charcoal {
-    background-color: var(--charcoal);
-    color: var(--cream);
+  background-color: var(--charcoal);
+  color: var(--cream);
 }
 .leaf-green {
-    background-color: var(--leaf-green);
-    color: var(--cream);
+  background-color: var(--leaf-green);
+  color: var(--cream);
 }
 .light-blue {
-    background-color: var(--light-blue);
-    color: var(--charcoal);
+  background-color: var(--light-blue);
+  color: var(--charcoal);
 }
 .cream {
-    background-color: var(--cream);
-    color: var(--charcoal);
+  background-color: var(--cream);
+  color: var(--charcoal);
 }
 .ash-grey {
-    background-color: var(--ash-grey);
-    color: var(--charcoal);
+  background-color: var(--ash-grey);
+  color: var(--charcoal);
 }
 p.color-name {
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 5px;
-    width: 100%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 5px;
+  width: 100%;
 }
 p.color-codes {
-    padding: 5px;
+  padding: 5px;
 }
 
-/* Styles: Images */
+/* ----- Styles: Images ----- */
 
-/* Styles: Spacing */
+/* ----- Styles: Spacing ----- */
 
-/* Styles: Typography */
+/* ----- Styles: Typography ----- */
 
-/* Navigation: Breadcrumbs */
+/* ----- Navigation: Breadcrumbs ----- */
 .breadcrumbs.positive {
-    color: var(--charcoal);
+  color: var(--charcoal);
 }
 .breadcrumbs.positive a {
-    color: var(--leaf-green);
+  color: var(--leaf-green);
 }
 .breadcrumbs.negative {
-    color: var(--light-blue)
+  color: var(--light-blue);
 }
 .breadcrumbs.negative a {
-    color: var(--cream);
+  color: var(--cream);
 }
 
-/* Navigation: Buttons */
+/* ----- Navigation: Buttons ----- */
+.example-block.button-group {
+  width: fit-content;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.button {
+  padding: 15px 30px;
+  margin: 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+/* Outlined Positive Styles */
+.button.outlined.positive.charcoal {
+  background-color: var(--cream);
+  border: 2px solid var(--charcoal);
+  color: var(--charcoal);
+}
+.button.outlined.positive.charcoal:hover {
+  background-color: var(--charcoal);
+  color: var(--cream);
+}
+.button.outlined.positive.leaf-green {
+  background-color: var(--cream);
+  border: 2px solid var(--leaf-green);
+  color: var(--leaf-green);
+}
+.button.outlined.positive.leaf-green:hover {
+  background-color: var(--leaf-green);
+  color: var(--cream);
+}
 
-/* Navigation: Navbars */
+/* Outlined Negative Styles */
+.button.outlined.negative.charcoal {
+  background-color: var(--charcoal);
+  border: 2px solid var(--charcoal);
+  color: var(--cream);
+}
+.button.outlined.negative.charcoal:hover {
+  background-color: var(--cream);
+  color: var(--charcoal);
+}
+.button.outlined.negative.leaf-green {
+  background-color: var(--leaf-green);
+  border: 2px solid var(--leaf-green);
+  color: var(--cream);
+}
+.button.outlined.negative.leaf-green:hover {
+  background-color: var(--cream);
+  color: var(--leaf-green);
+}
+.button.outlined.negative.light-blue {
+  background-color: var(--light-blue);
+  border: 2px solid var(--light-blue);
+  color: var(--charcoal);
+}
+.button.outlined.negative.light-blue:hover {
+  background-color: var(--cream);
+  border: 2px solid var(--charcoal);
+}
+.button.outlined.negative.ash-grey {
+  background-color: var(--ash-grey);
+  border: 2px solid var(--ash-grey);
+  color: var(--charcoal);
+}
+.button.outlined.negative.ash-grey:hover {
+  background-color: var(--cream);
+  border: 2px solid var(--charcoal);
+}
+
+/* Solid Styles */
+.button.solid.charcoal {
+  background-color: var(--charcoal);
+  color: var(--cream);
+}
+.button.solid.charcoal:hover {
+  background-color: var(--leaf-green);
+}
+.button.solid.leaf-green {
+  background-color: var(--leaf-green);
+  color: var(--cream);
+}
+.button.solid.leaf-green:hover {
+  background-color: var(--charcoal);
+}
+.button.solid.light-blue {
+  background-color: var(--light-blue);
+  color: var(--charcoal);
+}
+.button.solid.light-blue:hover {
+  background-color: var(--ash-grey);
+}
+.button.solid.ash-grey {
+  background-color: var(--ash-grey);
+  color: var(--charcoal);
+}
+.button.solid.ash-grey:hover {
+  background-color: var(--light-blue);
+}
+
+/* ----- Navigation: Navbars ----- */
+
 /* Adapted from: Mobile Navbar Menu using HTML, CSS and JS https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci 
 /* 
     Adaptations: I built and styled my desktop navbar first, then referred to the tutorial to create the HTML structure for my
@@ -139,79 +244,83 @@ p.color-codes {
     Finally, I added the tutorial JavaScript to my JavaScript file and linked it to my page. The mobile implementation is non-functional 
     in the example section of this page, however it is functional as a standalone piece and in the linked codepen.
 */
+/* All Devices */
 div.desktop {
-    width: 100%;
+  width: 100%;
 }
 div.mobile {
-    width: 50%;
+  width: 50%;
 }
 .sample-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .sample-nav-logo {
-    color: var(--cream);
-    font-size: 1.4rem;
-    padding: 25px;
+  color: var(--cream);
+  font-size: 1.4rem;
+  padding: 25px;
 }
 .sample-hamburger {
-    padding: 25px;
-    cursor: pointer;
+  padding: 25px;
+  cursor: pointer;
 }
+/* Desktop Only */
 .desktop .sample-nav-menu-item {
-    display: inline;
-    padding: 29px 25px;
+  display: inline;
+  padding: 29px 25px;
 }
 .desktop .sample-nav-menu-item-link {
-    color: var(--cream);
+  color: var(--cream);
 }
 .desktop .sample-nav-menu-item:hover {
-    background-color: var(--ash-grey);
+  background-color: var(--ash-grey);
 }
 .desktop .sample-nav-menu-item:hover .sample-nav-menu-item-link {
-    color: var(--charcoal);
+  color: var(--charcoal);
 }
 .desktop .sample-hamburger {
-    display: none;
+  display: none;
 }
+/* Mobile Only */
 .mobile .sample-bar {
-    display: block;
-    border-radius: 5px;
-    width: 25px;
-    height: 3px;
-    margin: 5px 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: var(--cream);
+  display: block;
+  border-radius: 5px;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--cream);
 }
 .mobile .sample-nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 79px;
-    flex-direction: column;
-    background-color: var(--ash-grey);
-    width: 100%;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  left: -100%;
+  top: 79px;
+  flex-direction: column;
+  background-color: var(--ash-grey);
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
 }
 .mobile .sample-nav-menu.active {
-    left: 0;
+  left: 0;
 }
 .mobile .sample-nav-menu-item {
-    display: block;
-    padding: 15px 0;
-    border-bottom: 1px solid var(--charcoal);
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--charcoal);
 }
 .mobile .sample-nav-menu-item-link {
-    color: var(--charcoal)
+  color: var(--charcoal);
 }
 .mobile .sample-nav-menu-item-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-/* Navigation: Submenus */
+/* ----- Navigation: Submenus ----- */
+
 /* Code adapted from W3Schools's CSS Subnav Tutorial: https://www.w3schools.com/howto/howto_css_subnav.asp */
 /* 
     Adaptations: First I created my HTML structure based on my existing Navbars, then modified the last element to
@@ -219,67 +328,67 @@ div.mobile {
     to my submenu elements one by one from the tutorial, modifying to fit my specific goals as needed.
 */
 .submenu-sample {
-    height: 300px;
-    position:relative;
+  height: 300px;
+  position: relative;
 }
 .submenu-sample .nav {
-    background-color: var(--charcoal);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .submenu-sample .nav-logo {
-    color: var(--cream);
-    padding: 25px;
-    font-size: 1.4rem;
-    margin: 0;
-  }
-  .submenu-sample .nav-menu-item, .submenu-sample .nav-menu-item.submenu-button {
-    display: inline;
-    padding: 29px 25px;
-  }
-  .submenu-sample .nav-menu-item-link {
-    color: var(--cream);
-  }
-  .submenu-sample .nav-menu-item:hover {
-    background-color: var(--ash-grey);
-  }
-  .submenu-sample .nav-menu-item:hover .nav-menu-item-link {
-    color: var(--charcoal);
-  }
-  .submenu {
-    float: right;
-  }
-  .submenu-content {
-    display: none;
-    position: absolute;
-    left: 0px;
-    top: 76px;
-    background-color: var(--ash-grey);
-    width: 100%;
-    z-index: 1;
-  }
-  .submenu:hover .submenu-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .submenu-item {
-    padding: 10px;
-  }
-  .submenu-sample .submenu-item-link {
-    text-align: center;
-    color: var(--charcoal);
-  }
-  .submenu-item-link:hover {
-    text-decoration: underline;
-  }
+  background-color: var(--charcoal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.submenu-sample .nav-logo {
+  color: var(--cream);
+  padding: 25px;
+  font-size: 1.4rem;
+  margin: 0;
+}
+.submenu-sample .nav-menu-item,
+.submenu-sample .nav-menu-item.submenu-button {
+  display: inline;
+  padding: 29px 25px;
+}
+.submenu-sample .nav-menu-item-link {
+  color: var(--cream);
+}
+.submenu-sample .nav-menu-item:hover {
+  background-color: var(--ash-grey);
+}
+.submenu-sample .nav-menu-item:hover .nav-menu-item-link {
+  color: var(--charcoal);
+}
+.submenu {
+  float: right;
+}
+.submenu-content {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 76px;
+  background-color: var(--ash-grey);
+  width: 100%;
+  z-index: 1;
+}
+.submenu:hover .submenu-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.submenu-item {
+  padding: 10px;
+}
+.submenu-sample .submenu-item-link {
+  text-align: center;
+  color: var(--charcoal);
+}
+.submenu-item-link:hover {
+  text-decoration: underline;
+}
 
+/* ----- Components: Cards ----- */
 
-/* Components: Cards */
+/* ----- Components: Avatars ----- */
 
-/* Components: Avatars */
+/* ----- Components: Forms ----- */
 
-/* Components: Forms */
-
-/* Components: Lists */
+/* ----- Components: Lists ----- */
