@@ -498,3 +498,38 @@ div.mobile {
 /* ----- Components: Forms ----- */
 
 /* ----- Components: Lists ----- */
+.example-block.list {
+  width: 50%;
+}
+/* Ordered Lists */
+.ordered-list {
+  padding: 25px;
+  color: var(--charcoal);
+}
+.ordered-list .list-title {
+  margin-bottom: 10px;
+}
+.ordered-list li {
+  font-size: 1rem;
+  font-weight: 500;
+  list-style: decimal inside;
+}
+
+/* Unordered Lists */
+.unordered-list {
+  padding: 25px;
+  color: var(--charcoal);
+}
+.unordered-list .list-title {
+  margin-bottom: 10px;
+}
+.unordered-list li {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.unordered-list li::before {
+  content: "•";
+  padding-right: 10px;
+  font-size: 1.2rem;
+  color: var(--leaf-green);
+}
