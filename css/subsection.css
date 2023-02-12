@@ -388,6 +388,38 @@ div.mobile {
 /* ----- Components: Cards ----- */
 
 /* ----- Components: Avatars ----- */
+.avatar-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 25px;
+  }
+  .avatar {
+    margin: 10px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--charcoal);
+  }
+  .avatar.small {
+    width: 50px;
+    height: 50px;
+  }
+  .avatar.medium {
+    width: 80px;
+    height: 80px;
+  }
+  .avatar.large {
+    width: 125px;
+    height: 125px;
+  }
+  .avatar img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    object-position: center;
+  }
 
 /* ----- Components: Forms ----- */
 
