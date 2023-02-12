@@ -132,6 +132,13 @@ p.color-codes {
 /* Navigation: Buttons */
 
 /* Navigation: Navbars */
+/* Adapted from: Mobile Navbar Menu using HTML, CSS and JS https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci 
+/* 
+    Adaptations: I built and styled my desktop navbar first, then referred to the tutorial to create the HTML structure for my
+    mobile menu and hamburger icon. I then applied the tutorial style rules to my mobile menu, personalizing style, spacing, and layout. 
+    Finally, I added the tutorial JavaScript to my JavaScript file and linked it to my page. The mobile implementation is non-functional 
+    in the example section of this page, however it is functional as a standalone piece and in the linked codepen.
+*/
 div.desktop {
     width: 100%;
 }
@@ -181,7 +188,7 @@ div.mobile {
 .mobile .sample-nav-menu {
     position: fixed;
     left: -100%;
-    top: 61px;
+    top: 79px;
     flex-direction: column;
     background-color: var(--ash-grey);
     width: 100%;
@@ -205,6 +212,13 @@ div.mobile {
 }
 
 /* Navigation: Submenus */
+/* Code adapted from W3Schools's CSS Subnav Tutorial: https://www.w3schools.com/howto/howto_css_subnav.asp */
+/* 
+    Adaptations: First I created my HTML structure based on my existing Navbars, then modified the last element to
+    match that of the tutorial. Then I styled the nav and submenu to match my existing navbar. Finally, I applied the CSS rules
+    to my submenu elements one by one from the tutorial, modifying to fit my specific goals as needed.
+*/
+
 
 /* Components: Cards */
 
