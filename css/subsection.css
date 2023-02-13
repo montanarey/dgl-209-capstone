@@ -177,6 +177,79 @@ div.cards-group {
 /* ----- Styles: Spacing ----- */
 
 /* ----- Styles: Typography ----- */
+.typography-sets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
+.typography-sets .example-block {
+  width: 45%;
+  padding-bottom: 25px;
+}
+@media only screen and (max-width: 768px) {
+  .typography-sets .example-block {
+    width: 100%;
+  }
+}
+/* Typography Colour Styles */
+.positive * {
+  color: var(--charcoal);
+}
+.positive a {
+  color: var(--leaf-green);
+}
+.negative * {
+  color: var(--cream);
+}
+.negative a {
+  color: var(--light-blue);
+}
+/* Typography Font Styles */
+.typography-sets h1 {
+  font-weight: 900;
+  font-size: 2.4rem;
+  margin: 25px 25px;
+}
+.typography-sets h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin: 20px 25px;
+}
+.typography-sets h3 {
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin: 15px 25px;
+}
+.typography-sets h4 {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 10px 25px;
+}
+.typography-sets h5 {
+  font-weight: 900;
+  font-size: 0.9rem;
+  margin: 5px 25px;
+}
+.typography-sets h6 {
+  font-weight: 500;
+  font-size: 0.7rem;
+  margin: 5px 25px;
+}
+.typography-sets p {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0 25px;
+}
+.typography-sets p a {
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.typography-sets p a:hover {
+  text-decoration: underline;
+}
 
 /* ----- Navigation: Breadcrumbs ----- */
 .breadcrumbs.positive {
