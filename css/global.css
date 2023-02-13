@@ -27,6 +27,44 @@
     --cream: #F2F8F3;
     --ash-grey: #ABB9B9;
 }
+h1 {
+    font-weight: 900;
+    font-size: 2.4rem;
+  }
+  h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-weight: 900;
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-weight: 900;
+    font-size: 0.9rem;
+  }
+  h6 {
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  p {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  p a {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--leaf-green);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  p a:hover {
+    text-decoration: underline;
+  }
 a {
     color: var(--charcoal);
 }

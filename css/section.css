@@ -22,12 +22,10 @@
     width: 100%;
     color: var(--cream);
     text-align: left;
-    font-size: xx-large;
     margin-top: 25px;
     padding: 25px;
 }
 .introduction {
-    font-weight: 200;
     font-size: 1.2rem;
     padding: 25px;
     width: 80%;
@@ -36,7 +34,6 @@
 }
 
 /* Section Cards */
-
 .section-list {
     width: 100%;
 }
@@ -61,13 +58,6 @@
 }
 .details > h2 {
     margin-bottom: 25px;
-}
-.details > p > a {
-    color: var(--leaf-green);
-    transition: all 0.3s ease-in-out;
-}
-.details > p > a:hover {
-    color: var(--charcoal);
 }
 .button {
     margin-top: 25px;
@@ -94,7 +84,6 @@
     height: fit-content;
 }
 .banner h3 {
-    font-size: 1.5rem;
     padding: 25px;
 }
 .banner a {
@@ -127,7 +116,6 @@
 
 /* Page Title and Description */
 h1 {
-    font-size: 2rem;
     margin-bottom: 10px;
 }
 h1, .section-description {

@@ -17,7 +17,6 @@
   color: var(--leaf-green);
 }
 .title {
-  font-size: 2rem;
   margin-bottom: 10px;
 }
 .title,
@@ -25,7 +24,6 @@
   padding-left: 25px;
   padding-bottom: 10px;
   width: 80%;
-  color: var(--charcoal);
 }
 .section {
   padding-left: 25px;
@@ -40,13 +38,6 @@
 }
 .section p {
   width: 80%;
-}
-.section p a {
-  color: var(--leaf-green);
-  text-decoration: underline;
-}
-.section p a:hover {
-  color: var(--charcoal);
 }
 .example-block {
   max-width: 80%;
@@ -171,14 +162,12 @@ div.cards-group {
 .sample-hero h1 {
   width: 100%;
   color: var(--cream);
-  font-size: xx-large;
   margin: 25px 0;
 }
 .sample-hero p {
   width: 80%;
   color: var(--cream);
   font-size: 1.2rem;
-  font-weight: 200;
   margin: 25px 0;
 }
 .sample-hero a {
@@ -578,28 +567,20 @@ div.mobile {
 /* Ordered Lists */
 .ordered-list {
   padding: 25px;
-  color: var(--charcoal);
 }
 .ordered-list .list-title {
   margin-bottom: 10px;
 }
 .ordered-list li {
-  font-size: 1rem;
-  font-weight: 500;
   list-style: decimal inside;
 }
 
 /* Unordered Lists */
 .unordered-list {
   padding: 25px;
-  color: var(--charcoal);
 }
 .unordered-list .list-title {
   margin-bottom: 10px;
-}
-.unordered-list li {
-  font-size: 1rem;
-  font-weight: 500;
 }
 .unordered-list li::before {
   content: "•";
