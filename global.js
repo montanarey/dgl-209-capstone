@@ -2,7 +2,7 @@
     Filename: global.js
     Purpose: holds site-wide js functionality for the design system website.
     Author: Montana Pistell
-    Last Modified: 
+    Last Modified: February 13, 2023
 */
 
 // Mobile Hamburger Menu Functionality
@@ -14,7 +14,7 @@
     in the example section of this page, however it is functional as a standalone piece and in the linked codepen.
 */
 
-console.log("js linked correctly");
+// console.log("js linked correctly");
 
 const hamburger = document.querySelector(".hamburger");
 const mobileNavMenu = document.querySelector(".mobile-nav-menu");

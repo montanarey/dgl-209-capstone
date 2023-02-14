@@ -2,7 +2,7 @@
     Filename: subsection.css
     Purpose: holds style rules for the subsection pages of the design system website.
     Author: Montana Pistell
-    Last Modified: 
+    Last Modified: February 13, 2023
 */
 
 /* ----- All Subsections ------ */
@@ -149,7 +149,7 @@ div.cards-group {
 /* Hero Images */
 .sample-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
-    url("/images/houseplants-row-light.jpg");
+    url("../images/houseplants-row-light.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
