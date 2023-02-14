@@ -158,3 +158,9 @@ h1, .section-description {
     color: var(--cream);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+    .subsection-list-item {
+        width: 100%;
+    }
+}
