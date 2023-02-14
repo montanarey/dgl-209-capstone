@@ -175,6 +175,28 @@ div.cards-group {
 }
 
 /* ----- Styles: Spacing ----- */
+.example-block.spacing {
+  padding: 0 0 25px 25px;
+  width: fit-content;
+}
+/* Text Spacing */
+.example-block.spacing h3 {
+  padding-top: 25px;;
+}
+
+/* Image Spacing */
+.images-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image.image-spacing {
+  margin: 25px 25px 0 0;
+}
+/* Button Spacing */
+.example-block.spacing a {
+  display: block;
+  margin: 25px 0 0;
+}
 
 /* ----- Styles: Typography ----- */
 .typography-sets {
