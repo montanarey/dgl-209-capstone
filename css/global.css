@@ -106,8 +106,10 @@ header {
 /* ---------- Desktop Navigation----------  */
 .desktop-nav {
   background-color: var(--cream);
-  width: 250px;
+  width: 200px;
   padding: 25px;
+  /* position: fixed;
+  height: 100%; */ /* un-comment if using sticky sidebar*/
 }
 .desktop-nav > h3 {
   font-size: 1.4em;
@@ -124,6 +126,7 @@ header {
 
 /* ---------- Right-Side Content (fullscreen on mobile) ---------- */
 article {
+  /* margin-left: 200px; */ /* un-comment if using sticky sidebar*/
   width: 80%;
   height: fit-content;
 }
