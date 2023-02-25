@@ -82,16 +82,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .nav-logo {
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .nav-logo > img {
   width: 300px;
-}
-.nav-logo:hover {
-  color: var(--cream);
-  text-decoration: none;
 }
 .mobile-nav,
 .hamburger {
