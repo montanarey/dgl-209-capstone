@@ -165,7 +165,7 @@ footer > * {
     display: none;
   }
   .nav-logo {
-    margin: 1em;
+    margin: 10px 25px;
   }
   .mobile-nav {
     padding: 1em;
@@ -199,7 +199,7 @@ footer > * {
     position: absolute;
     z-index: 1;
     left: -100%;
-    top: 122.09px;
+    top: 83px;
     flex-direction: column;
     background-color: var(--cream);
     width: 100%;
