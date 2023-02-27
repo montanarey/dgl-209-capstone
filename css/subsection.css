@@ -78,23 +78,21 @@
 }
 .charcoal {
   background-color: var(--charcoal);
+}
+.charcoal .color-name, .leaf-green .color-name {
   color: var(--cream);
 }
 .leaf-green {
   background-color: var(--leaf-green);
-  color: var(--cream);
 }
 .light-blue {
   background-color: var(--light-blue);
-  color: var(--charcoal);
 }
 .cream {
   background-color: var(--cream);
-  color: var(--charcoal);
 }
 .ash-grey {
   background-color: var(--ash-grey);
-  color: var(--charcoal);
 }
 p.color-name {
   font-size: 1.2rem;
