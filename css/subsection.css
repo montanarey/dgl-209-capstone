@@ -279,6 +279,7 @@ div.cards-group {
 /* ----- Navigation: Breadcrumbs ----- */
 .breadcrumbs.positive {
   color: var(--charcoal);
+  position: relative;
 }
 .breadcrumbs.positive a {
   color: var(--leaf-green);
