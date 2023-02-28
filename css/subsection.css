@@ -28,12 +28,12 @@
 .description {
   padding-left: 25px;
   padding-bottom: 10px;
-  width: 80%;
+  width: 75%;
 }
 .section {
   padding-left: 25px;
   padding-bottom: 10px;
-  width: 100%;
+  width: 75%;
   margin: 25px 0;
   color: var(--charcoal);
 }
@@ -41,11 +41,7 @@
 .section h3 {
   margin-bottom: 10px;
 }
-.section p {
-  width: 80%;
-}
 .example-block {
-  max-width: 80%;
   width: auto;
   margin: 25px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
