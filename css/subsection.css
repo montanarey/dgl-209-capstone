@@ -565,10 +565,11 @@ div.mobile {
 /* Horizontal Cards */
 .card.horizontal {
   flex-direction: row;
+  height: 200px;
 }
 .horizontal .card-img {
   width: 30%;
-  height: 200px;
+  height: inherit;
   object-fit: cover;
   border-radius: 5px 0 0 5px;
   overflow: hidden;
