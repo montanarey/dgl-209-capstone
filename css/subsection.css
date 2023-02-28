@@ -22,24 +22,20 @@
 }
 .title {
   margin-top: 75px;
-  margin-bottom: 10px;
 }
 .title,
 .description {
   padding-left: 25px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   width: 75%;
 }
 .section {
   padding-left: 25px;
-  padding-bottom: 10px;
   width: 75%;
-  margin: 25px 0;
   color: var(--charcoal);
 }
-.section h2,
-.section h3 {
-  margin-bottom: 10px;
+.section-title, .section-description, .section h3, .section p {
+  margin-bottom: 25px;
 }
 .example-block {
   width: auto;
@@ -95,6 +91,7 @@ p.color-name {
   font-weight: 600;
   padding: 5px;
   width: 100%;
+  margin: 0;
 }
 p.color-codes {
   padding: 5px;
