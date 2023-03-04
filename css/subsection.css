@@ -27,12 +27,31 @@
 .description {
   padding-left: 25px;
   padding-bottom: 25px;
-  width: 75%;
+  width: 80%;
 }
 .section {
   padding-left: 25px;
-  width: 75%;
+  width: 80%;
   color: var(--charcoal);
+}
+.cols{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cols > div {
+  width: 45%;
+}
+@media only screen and (max-width: 768px) {
+  .cols {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cols > div {
+    width: 80%;
+  }
 }
 .section-title, .section-description, .section h3, .section p {
   margin-bottom: 25px;
@@ -50,11 +69,12 @@
   background-color: var(--charcoal);
 }
 
+
+
 /* ----- Styles: Colours ----- */
 .color-cards {
   margin-top: 25px;
   display: flex;
-  max-width: 90%;
   flex-direction: row;
   flex-wrap: wrap;
 }
