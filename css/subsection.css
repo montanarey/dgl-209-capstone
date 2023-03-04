@@ -52,6 +52,17 @@
     width: 100%;
   }
 }
+.quick-summary {
+  margin: 0 0 25px 25px;
+  padding: 10px;
+  border: 5px dotted var(--ash-grey);
+}
+.quick-summary.section h2 {
+  margin-bottom: 10px;
+}
+.quick-summary.section p {
+  margin-bottom: 0;
+}
 .section-title, .section-description, .section h3, .section p {
   margin-bottom: 25px;
 }
@@ -67,7 +78,6 @@
 .example-block.negative {
   background-color: var(--charcoal);
 }
-
 
 
 /* ----- Styles: Colours ----- */
