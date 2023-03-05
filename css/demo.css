@@ -1,0 +1,18 @@
+/* 
+    Filename: demo.css
+    Purpose: holds style rules specific to the demo page of the design system website.
+    Author: Montana Pistell
+    Last Modified: March 5, 2023
+*/
+
+/* Hero Section */
+.sample-hero h1 {
+    padding: 0;
+}
+.sample-hero p {
+    margin: 0;
+}
+.demo-button-group {
+    display: flex;
+    gap: 25px;
+}

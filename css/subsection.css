@@ -188,6 +188,7 @@ div.cards-group {
   width: 100%;
   color: var(--cream);
   margin: 25px 0;
+  padding-left: 0;
 }
 .sample-hero p {
   width: 80%;
