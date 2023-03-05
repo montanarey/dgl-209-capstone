@@ -8,6 +8,7 @@
     <title>Demo Site | Plant Parents Design System</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/subsection.css">
     <link rel="icon" type="image/x-icon" href="images/plant-parents-favicon.png">
 </head>
 
@@ -72,37 +73,126 @@
             </ul>
             
             <!--Page Title and Description-->       
-            <h1 class="title">Design System: Example Site</h1>
-            <p class="section-description">This page is currently under construction.</p>
+            <h1>Design System: Example Site</h1>
 
-            <!--Navbar-->
-            <!-- <nav>
-                <ul>
-                    <li><a href="#">Item A</a></li>
-                    <li><a href="#">Item B</a></li>
-                    <li><a href="#">Item C</a></li>
-                    <li><a href="#">Item D</a></li>
-                </ul>
-            </nav> -->
+            <!--Hero Section-->
+            <div class="hero">
+                <h1>Coming soon: Plant Parents</h1>
+                <p>A houseplant lover's best friend.</p>
+                <a href="#" class="button solid light-blue">Click Me</a>
+                <a href="#" class="button solid leaf-green">Click Me</a>
+            </div>
 
-            <!-- Cards
-            <div class="card-list">
-                <div class="card">
-                    <h3>Plant Name</h3>
-                    <img src="#" alt="Image of Plant">
-                    <p>description of plant...</p>
-                    <ul>
-                        <li>Plant info:</li>
-                        <li>Plant info:</li>
-                        <li>Plant info:</li>
-                    </ul>
-                    <div class="data">data visualization here</div>
-                    <button>More Info</button>
+            <div class="cols">
+                <!--Benefits-->
+                <div class="section">
+                    <h2 class="section-title">What is Plant Parents?</h2>
+                    <p class="section-description">Plant Parents is...</p>
+                    <!--List-->
+                    <ol class="ordered-list">
+                        <h3 class="list-title">List Name</h3>
+                        <li>List Item 1</li>
+                        <li>List Item 2</li>
+                        <li>List Item 3</li>
+                    </ol>
                 </div>
-            </div> -->
+    
+                <!--Form-->
+                <div class="section">
+                    <h3>Let's get in touch.</h3>
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" placeholder="First Last"><br>
 
-            <!--Contact Form-->
-            <!-- <form action="POST">form contents</form> -->
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="myemail@email.ca">
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="123-456-7890">
+                        
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        
+                        <input type="checkbox" id="permission" name="permission" value="permission-granted">
+                        <label for="permission"> I agree to recieve communications from Plant Parents</label><br>
+                        
+                        <input type="submit" value="Contact Me" id="submit">
+                    </form>
+                </div>
+            </div>
+
+            <!--Feature Cards-->
+            <h2>Features</h2>
+            <div class="vertical-cards">
+                <div class="card vertical">
+                    <img src="https://images.unsplash.com/photo-1488655980602-a2d28399df6c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzYxNTM5NDk&ixlib=rb-4.0.3&q=80" class="card-img" alt="photo of plant">
+                    <div class="card-content">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>Information about Card's topic</p>
+                      <a class="card-button" href="#">Button</a>
+                    </div>
+                </div>
+                <div class="card vertical">
+                    <img src="https://images.unsplash.com/photo-1488655980602-a2d28399df6c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzYxNTM5NDk&ixlib=rb-4.0.3&q=80" class="card-img" alt="photo of plant">
+                    <div class="card-content">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>Information about Card's topic</p>
+                      <a class="card-button" href="#">Button</a>
+                    </div>
+                </div>
+                <div class="card vertical">
+                    <img src="https://images.unsplash.com/photo-1488655980602-a2d28399df6c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzYxNTM5NDk&ixlib=rb-4.0.3&q=80" class="card-img" alt="photo of plant">
+                    <div class="card-content">
+                      <h2 class="card-title">Card Title</h2>
+                      <p>Information about Card's topic</p>
+                      <a class="card-button" href="#">Button</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Profile Example-->
+            <h2>Create Your Own Profile</h2>
+            <div class="profile">
+                <!--Avatar-->
+                <div class="avatar large">
+                    <img src="https://images.unsplash.com/photo-1617173944883-6ffbd35d584d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzYxNjExNjc&ixlib=rb-4.0.3&q=80" alt="large avatar">
+                </div>
+                <!--Profile Info-->
+                <h3>Your Name</h3>
+                <p><strong>Pronouns: </strong>she/her</p>
+                <p><strong>Age: </strong>26</p>
+                <p><strong>Bio: </strong>I'm a Vancouver Island local with a bad habit of killing her houseplants :(</p>
+            </div>
+
+            <!--Plant Collection Demo-->
+            <h2>Set Up Your Own Plant Collection</h2>
+            <div class="example-block submenu-sample">
+                <nav class="nav">
+                    <a href="#" class="nav-logo">My Plant Family</a>
+                    <ul class="nav-menu">
+                        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Add a Plant</a></li>
+                        <div class="submenu">
+                            <li class="nav-menu-item submenu-button"><a class="nav-menu-item-link" href="#">My Plants</a></li>
+                            <div class="submenu-content">
+                                <li class="submenu-item"><a class="submenu-item-link" href="#">Alfred the Pothos</a></li>
+                                <li class="submenu-item"><a class="submenu-item-link" href="#">Winnie the Hoya</a></li>
+                                <li class="submenu-item"><a class="submenu-item-link" href="#">Roberto the Aloe Vera</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+
+            <!--Horizontal Card-->
+            <div class="card horizontal">
+                <img src="https://images.unsplash.com/photo-1488655980602-a2d28399df6c?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzYxNTM5NDk&ixlib=rb-4.0.3&q=80" class="card-img" alt="photo of plant">
+                <div class="card-content">
+                  <h2 class="card-title">Card Title</h2>
+                  <p>Information about Card's topic</p>
+                  <a class="card-button" href="#">Button</a>
+                </div>
+            </div>
+
         </article>
 
     </div>
