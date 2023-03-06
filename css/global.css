@@ -110,13 +110,14 @@ header {
   background-color: var(--cream);
   width: 250px;
   padding: 25px;
-  /* position: fixed;
-  height: 100%; */ /* un-comment if using sticky sidebar*/
 }
 .desktop-nav > h3 {
   font-size: 1.4em;
   color: var(--charcoal);
   margin: 0 0 25px 0;
+}
+.desktop-nav-content {
+  position: fixed;
 }
 .top-links {
   font-weight: 600;
