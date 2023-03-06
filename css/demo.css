@@ -133,6 +133,11 @@ form {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1000px) {
+    .card.horizontal {
+        max-height: fit-content;
+    }
+}
 @media only screen and (max-width: 768px) {
     .vertical-cards {
         flex-direction: column;
@@ -140,5 +145,8 @@ form {
     }
     .card.vertical {
         width: 80%;
+    }
+    .card.horizontal {
+        max-height: fit-content;
     }
 }
