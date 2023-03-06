@@ -5,6 +5,11 @@
     Last Modified: March 5, 2023
 */
 
+/* General */
+article {
+    width: 100%;
+}
+
 /* Breadcrumbs */
 .breadcrumbs {
     z-index: 1;
@@ -39,7 +44,37 @@ form {
 }
 
 /* Features Section */
+.features {
+    background-color: var(--ash-grey);
+    padding: 25px;
+}
+.features h2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.vertical-cards {
+    display: flex;
+    gap: 25px;
+}
+.card.vertical {
+    background-color: white;
+    width: 33%;
+}
+.card.vertical .card-title {
+    padding-bottom: 0;
+}
 
 /* Profile Section */
 
 /* Submenu Section */
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .vertical-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card.vertical {
+        width: 80%;
+    }
+}
