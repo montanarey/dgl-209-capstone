@@ -111,7 +111,26 @@ form {
 }
 
 /* Horizontal Card Section */
-
+.horizontal-card-section {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: var(--ash-grey);
+}
+.card.horizontal {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    height: auto;
+    max-height: 275px;
+}
+.card.horizontal a {
+    margin: 0;
+}
+.card.horizontal .card-content {
+    padding: 25px;
+    justify-content: space-between;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
