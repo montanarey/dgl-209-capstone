@@ -5,6 +5,11 @@
     Last Modified: March 5, 2023
 */
 
+/* Breadcrumbs */
+.breadcrumbs {
+    z-index: 1;
+}
+
 /* Hero Section */
 .sample-hero h1 {
     padding: 0;
@@ -16,3 +21,25 @@
     display: flex;
     gap: 25px;
 }
+
+/* About / Form Section */
+div.cols {
+    padding: 25px 0;
+}
+.cols p.section-description, .cols .unordered-list {
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.about p, .form p {
+    width: 100%;
+}
+form {
+    padding-left: 0;
+}
+
+/* Features Section */
+
+/* Profile Section */
+
+/* Submenu Section */
