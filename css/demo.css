@@ -16,6 +16,9 @@ article {
 }
 
 /* Hero Section */
+.sample-hero {
+    margin-top: 49px;
+}
 .sample-hero h1 {
     padding: 0;
 }
@@ -65,6 +68,30 @@ form {
 }
 
 /* Profile Section */
+.profile-section {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+}
+.profile-section .section-title {
+    text-align: center;
+}
+.profile {
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.profile .avatar {
+    min-width: 125px;
+}
+.profile-info {
+    width: fit-content;
+}
+.profile-info h3, .profile-info p {
+    margin-bottom: 10px
+}
 
 /* Submenu Section */
 
