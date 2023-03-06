@@ -5,11 +5,6 @@
     Last Modified: March 6, 2023
 */
 
-/* General */
-article {
-    width: 100%;
-}
-
 /* Breadcrumbs */
 .breadcrumbs {
     z-index: 1;
