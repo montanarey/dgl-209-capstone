@@ -94,6 +94,24 @@ form {
 }
 
 /* Submenu Section */
+.submenu-section {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: var(--light-blue);
+}
+.submenu-section h2 {
+    text-align: center;
+}
+.submenu-section .submenu-sample {
+    height: 115px;
+    width: 80%;
+    margin: 25px auto;
+    background-color: white;
+}
+
+/* Horizontal Card Section */
+
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
