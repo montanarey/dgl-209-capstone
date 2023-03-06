@@ -301,18 +301,26 @@ div.cards-group {
 
 /* ----- Navigation: Breadcrumbs ----- */
 .breadcrumbs.positive {
-  color: var(--charcoal);
   position: relative;
+  background-color: var(--cream);
+}
+.breadcrumbs.positive li {
+  color: var(--charcoal);
 }
 .breadcrumbs.positive a {
   color: var(--leaf-green);
 }
 .breadcrumbs.negative {
-  color: var(--light-blue);
+  position: relative;
+  background-color: var(--charcoal);
 }
-.breadcrumbs.negative a {
+.breadcrumbs.negative li {
   color: var(--cream);
 }
+.breadcrumbs.negative a {
+  color: var(--light-blue);
+}
+
 
 /* ----- Navigation: Buttons ----- */
 .example-block.button-group {
