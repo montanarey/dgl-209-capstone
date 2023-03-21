@@ -189,7 +189,7 @@ form {
         position: absolute;
         left: 0px;
         top: 53px;
-        /* z-index: 2; */
+        z-index: unset;
         border-radius: 0 0 5px 5px;
     }
     .submenu:hover .submenu-content {
