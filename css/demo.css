@@ -164,7 +164,8 @@ form {
     .card.vertical {
         width: 80%;
     }
-    .card.horizontal {
-        max-height: fit-content;
+    .horizontal-card-section.section {
+        /* max-height: fit-content; */
+        display: none;
     } 
 }
