@@ -104,6 +104,9 @@ form {
     margin: 25px auto;
     background-color: white;
 }
+.submenu-sample.mobile {
+    display: none;
+}
 
 /* Horizontal Card Section */
 .horizontal-card-section {
@@ -156,6 +159,7 @@ form {
         max-height: fit-content;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .vertical-cards {
         flex-direction: column;
@@ -164,8 +168,30 @@ form {
     .card.vertical {
         width: 80%;
     }
-    .horizontal-card-section.section {
-        /* max-height: fit-content; */
+    .submenu-sample.desktop {
         display: none;
     } 
+    .submenu-sample.mobile {
+        height: 170px;
+    }
+    .submenu {
+        width: 100%;
+    }
+    .mobile .submenu-button {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+    .submenu-content {
+        display: none;
+        position: absolute;
+        left: 0px;
+        top: 53px;
+        /* z-index: 2; */
+        border-radius: 0 0 5px 5px;
+    }
+    .submenu:hover .submenu-content {
+        flex-direction: column;
+    }
 }
