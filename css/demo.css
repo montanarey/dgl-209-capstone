@@ -158,19 +158,6 @@ form {
     .card.horizontal {
         max-height: fit-content;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .vertical-cards {
-        flex-direction: column;
-        align-items: center;
-    }
-    .card.vertical {
-        width: 80%;
-    }
-    .horizontal-card-section {
-        display: none;
-    }
     .submenu-sample.desktop {
         display: none;
     } 
@@ -197,5 +184,18 @@ form {
     }
     .submenu:hover .submenu-content {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .vertical-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card.vertical {
+        width: 80%;
+    }
+    .horizontal-card-section {
+        display: none;
     }
 }
