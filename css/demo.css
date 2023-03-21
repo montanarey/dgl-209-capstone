@@ -172,6 +172,7 @@ form {
         display: none;
     } 
     .submenu-sample.mobile {
+        display: block;
         height: 170px;
     }
     .submenu {
