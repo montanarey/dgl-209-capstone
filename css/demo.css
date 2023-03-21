@@ -168,6 +168,9 @@ form {
     .card.vertical {
         width: 80%;
     }
+    .horizontal-card-section {
+        display: none;
+    }
     .submenu-sample.desktop {
         display: none;
     } 
