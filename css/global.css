@@ -168,6 +168,10 @@ footer {
   }
   .nav-logo {
     margin: 10px 25px;
+    width: 60%
+  }
+  .nav-logo img {
+    width: 100%;
   }
   .mobile-nav {
     padding: 1em;
