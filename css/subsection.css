@@ -599,7 +599,6 @@ div.mobile {
   border-radius: 5px;
 }
 .card-button {
-  margin-top: 25px;
   width: fit-content;
   padding: 15px 30px;
   background-color: var(--leaf-green);
@@ -629,7 +628,7 @@ div.mobile {
 .horizontal .card-content {
   width: 70%;
   display: flex;
-  padding: 1em;
+  padding: 25px;
   flex-direction: column;
 }
 .horizontal .card-title {
@@ -654,7 +653,7 @@ div.mobile {
 .vertical .card-content {
   width: 100%;
   display: flex;
-  padding: 1em;
+  padding: 25px;
   flex-direction: column;
   text-align: center;
 }
@@ -666,7 +665,7 @@ div.mobile {
   margin-bottom: 25px;
 }
 .vertical .card-button {
-  margin: 25px auto;
+  margin: 0 auto;
 }
 
 /* ----- Components: Avatars ----- */
