@@ -129,6 +129,29 @@ form {
 
 /* Media Queries */
 @media only screen and (max-width: 1000px) {
+    div.cols {
+        flex-direction: column;
+        gap: 0;
+        padding: 25px 0 0 0;
+        width: 100%;
+    }
+    .section.about {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 25px;
+    }
+    .section.form {
+        background-color: var(--light-blue);
+        width: 100%;
+        margin-left: 0;
+    }
+    .section.form .section-title, .section.form .section-description {
+        padding: 25px 25px 0 25px;
+        margin: 0;
+    }
+    .section.form form {
+        padding: 25px;
+    }
     .card.horizontal {
         max-height: fit-content;
     }
