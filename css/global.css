@@ -201,7 +201,7 @@ footer {
     position: absolute;
     z-index: 1;
     left: -100%;
-    top: 83px;
+    top: 132px;
     flex-direction: column;
     background-color: var(--cream);
     width: 100%;
