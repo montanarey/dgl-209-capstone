@@ -617,6 +617,11 @@ div.mobile {
 .mobile .submenu:hover .submenu-content {
   flex-direction: column;
 }
+@media only screen and (max-width: 768px) {
+  .submenu-sample.mobile {
+    width: 100%;
+  }
+}
 
 
 /* ----- Components: Cards ----- */
