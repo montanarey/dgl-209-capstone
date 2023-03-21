@@ -34,44 +34,22 @@
 }
 
 /* Section Cards */
-.section-list {
+.card-list {
     width: 100%;
 }
-.section-list-item {
-    display: flex;
-    margin: 1.5em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+.card-list .card {
+    margin: 25px;
+    height: fit-content;
+    min-height: 250px;
 }
-.section-list-item img {
-    width: 30%;
+.card-list .card-img {
     height: 250px;
-    object-fit: cover;
-    border-radius: 5px 0 0 5px;
-    overflow: hidden;
 }
-.details {
-    width: 70%;
-    display: flex;
-    padding: 1em;
-    flex-direction: column;
+.card-list .card-content {
+    justify-content: space-between;
 }
-.details > h2 {
-    margin-bottom: 25px;
-}
-.button {
-    margin-top: 25px;
-    width: fit-content;
-    padding: 10px 25px;
-    background-color: var(--leaf-green);
-    border-radius: 5px;
-    color: var(--cream);
-    transition: all 0.3s ease-in-out;
-}
-.button:hover {
-    background-color: var(--charcoal);
-    text-decoration: none;
-    color: var(--cream);
+.card-list .card-button {
+    margin: 25px 25px 0 0;
 }
 
 /* Banner */
