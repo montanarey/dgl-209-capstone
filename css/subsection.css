@@ -609,6 +609,7 @@ div.mobile {
 .mobile .submenu-content {
   display: none;
   position: absolute;
+  text-align: center;
   left: 0px;
   top: 53px;
   z-index: unset;
