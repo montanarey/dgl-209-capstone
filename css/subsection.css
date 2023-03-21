@@ -538,6 +538,7 @@ div.mobile {
   height: 300px;
   position: relative;
 }
+/* Navbar Submenu Example */
 .submenu-sample .nav {
   background-color: var(--charcoal);
   display: flex;
@@ -564,7 +565,7 @@ div.mobile {
 .submenu-sample .nav-menu-item:hover .nav-menu-item-link {
   color: var(--charcoal);
 }
-.submenu {
+.desktop .submenu {
   float: right;
 }
 .submenu-content {
@@ -591,6 +592,33 @@ div.mobile {
 .submenu-item-link:hover {
   text-decoration: underline;
 }
+/* Button Submenu Example */
+.submenu-sample.mobile {
+  display: block;
+  height: 170px;
+  width: 100%;
+}
+.mobile .submenu {
+  width: 100%;
+}
+.mobile .submenu-button {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+.mobile .submenu-content {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 53px;
+  z-index: unset;
+  border-radius: 0 0 5px 5px;
+}
+.mobile .submenu:hover .submenu-content {
+  flex-direction: column;
+}
+
 
 /* ----- Components: Cards ----- */
 .card {
