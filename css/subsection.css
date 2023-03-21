@@ -682,7 +682,7 @@ div.mobile {
     display: block;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid var(--charcoal);
+    border: 1px solid var(--charcoal);
   }
   .avatar.small {
     width: 50px;
