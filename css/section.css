@@ -146,4 +146,19 @@ h1, .section-description {
     .subsection-list-item {
         width: 100%;
     }
+    .card-list .card {
+        flex-direction: column;
+    }
+    .card-list .card-img {
+        height: 150px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+    .card-list .card-content {
+        width: 100%;
+        text-align: center;
+    }
+    .card-list .card-button {
+        margin: 25px auto 0 auto;
+    }
 }
