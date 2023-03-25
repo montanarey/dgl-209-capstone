@@ -143,6 +143,9 @@ h1, .section-description {
 }
 
 @media only screen and (max-width: 768px) {
+    #home-mobile-nav-menu {
+        top: 83px;
+      }
     .introduction {
         width: 100%;
     }
