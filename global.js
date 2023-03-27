@@ -2,7 +2,7 @@
     Filename: global.js
     Purpose: holds site-wide js functionality for the design system website.
     Author: Montana Pistell
-    Last Modified: February 13, 2023
+    Last Modified: March 27, 2023
 */
 
 // Mobile Hamburger Menu Functionality
