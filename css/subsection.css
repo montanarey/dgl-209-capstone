@@ -576,6 +576,8 @@ div.mobile {
 }
 .submenu-sample .nav-menu-item-link {
   color: var(--cream);
+  text-decoration: none;
+  font-weight: 500;
 }
 .submenu-sample .nav-menu-item:hover {
   background-color: var(--ash-grey);
@@ -600,12 +602,15 @@ div.mobile {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.submenu-item {
+p.submenu-item {
   padding: 10px;
+  margin-bottom: 0;
 }
 .submenu-sample .submenu-item-link {
   text-align: center;
   color: var(--charcoal);
+  text-decoration: none;
+  font-weight: 500;
 }
 .submenu-item-link:hover {
   text-decoration: underline;
