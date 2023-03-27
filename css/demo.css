@@ -34,6 +34,9 @@ div.cols {
     margin-left: 0;
     margin-bottom: 0;
 }
+.list-title {
+    margin: 0 0 10px 0;
+}
 .about p, .form p {
     width: 100%;
 }
