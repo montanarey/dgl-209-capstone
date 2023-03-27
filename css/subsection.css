@@ -18,7 +18,7 @@
   display: inline;
 }
 .breadcrumbs a {
-  color: var(--leaf-green);
+  color: var(--deep-green);
 }
 .title {
   margin-top: 75px;
@@ -114,8 +114,11 @@
 .charcoal {
   background-color: var(--charcoal);
 }
-.charcoal .color-name, .leaf-green .color-name {
-  color: var(--cream);
+.charcoal .color-name, .deep-green .color-name {
+  color: white;
+}
+.deep-green {
+  background-color: var(--deep-green);
 }
 .leaf-green {
   background-color: var(--leaf-green);

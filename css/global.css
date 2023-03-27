@@ -27,7 +27,8 @@ body {
 }
 :root {
   --charcoal: #2f3e46;
-  --leaf-green: #537F5E;
+  --deep-green: #4B8176;
+  --leaf-green: #90B6A1;
   --light-blue: #a6d5dd;
   --cream: #f2f8f3;
   --ash-grey: #abb9b9;
@@ -63,11 +64,12 @@ p {
 p a {
   font-weight: 600;
   font-size: 1rem;
-  color: var(--leaf-green);
+  color: var(--deep-green);
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 p a:hover {
+  color: var(--charcoal);
   text-decoration: underline;
 }
 a {
@@ -75,7 +77,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: var(--leaf-green);
+  color: var(--deep-green);
 }
 
 /* ---------- Header ---------- */
