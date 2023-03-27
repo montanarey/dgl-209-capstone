@@ -263,13 +263,18 @@ div.cards-group {
   color: var(--charcoal);
 }
 .positive a {
-  color: var(--leaf-green);
+  color: var(--deep-green);
+  text-decoration: underline;
 }
 .negative * {
   color: var(--cream);
 }
 .negative a {
   color: var(--light-blue);
+  text-decoration: underline;
+}
+.negative a:hover {
+  color: var(--cream);
 }
 /* Typography Font Styles */
 .typography-sets h1 {
@@ -356,6 +361,7 @@ div.cards-group {
   transition: all 0.3s ease-in-out;
   font-weight: 700;
   width: fit-content;
+  text-decoration: none;
 }
 /* Outlined Positive Styles */
 .button.outlined.positive.charcoal {

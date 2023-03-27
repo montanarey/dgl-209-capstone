@@ -65,18 +65,17 @@ p a {
   font-weight: 600;
   font-size: 1rem;
   color: var(--deep-green);
-  text-decoration: none;
+  text-decoration: underline;
   transition: all 0.3s ease-in-out;
 }
 p a:hover {
   color: var(--charcoal);
-  text-decoration: underline;
 }
 a {
   color: var(--charcoal);
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
   color: var(--deep-green);
 }
 
@@ -120,6 +119,9 @@ header {
 .desktop-nav-content {
   position: fixed;
   margin: 25px;
+}
+.desktop-nav-content a {
+  text-decoration: none;
 }
 .top-links {
   font-weight: 600;
