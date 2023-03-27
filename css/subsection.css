@@ -794,12 +794,15 @@ input[type=submit]:hover {
 .example-block.list {
   width: 50%;
 }
+.list-title {
+  margin: 0 0 10px 25px;
+  padding-top: 25px;
+  font-weight: 700;
+}
 /* Ordered Lists */
 .ordered-list {
-  padding: 25px;
-}
-.ordered-list .list-title {
-  margin-bottom: 10px;
+  margin: 0 25px;
+  padding-bottom: 25px;
 }
 .ordered-list li {
   list-style: decimal inside;
@@ -807,10 +810,8 @@ input[type=submit]:hover {
 
 /* Unordered Lists */
 .unordered-list {
-  padding: 25px;
-}
-.unordered-list .list-title {
-  margin-bottom: 10px;
+  margin: 0 25px;
+  padding-bottom: 25px;
 }
 .unordered-list li::before {
   content: "•";
