@@ -117,16 +117,13 @@ header {
 /* ---------- Desktop Navigation----------  */
 .desktop-nav {
   background-color: var(--cream);
-  width: 10%;
-  min-width: 221px;
-}
-.desktop-nav h3 {
-  font-size: 1.4em;
-  color: var(--charcoal);
+  width: fit-content;
+  min-width: 230px;
 }
 .desktop-nav-content {
   position: fixed;
-  margin: 25px;
+  padding: 25px;
+  max-width: initial;
 }
 .desktop-nav-content a {
   text-decoration: none;
