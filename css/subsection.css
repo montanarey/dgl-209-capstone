@@ -639,7 +639,7 @@ div.mobile {
 .card-button {
   width: fit-content;
   padding: 15px 30px;
-  background-color: var(--leaf-green);
+  background-color: var(--deep-green);
   border-radius: 5px;
   font-weight: 500;
   color: var(--cream);
