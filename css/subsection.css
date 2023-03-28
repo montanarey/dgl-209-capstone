@@ -221,8 +221,8 @@ div.cards-group {
   font-size: 1.2rem;
   margin: 25px 0;
 }
-.sample-hero a {
-  margin: 25px 0;
+.sample-hero button {
+  margin: 0;
 }
 
 /* ----- Styles: Spacing ----- */
