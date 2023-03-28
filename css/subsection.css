@@ -20,6 +20,10 @@
 }
 .breadcrumbs a {
   color: var(--deep-green);
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumbs a:hover {
+  color: var(--charcoal);
 }
 .title {
   margin-top: 75px;
@@ -339,6 +343,10 @@ div.cards-group {
 }
 .breadcrumbs.positive a {
   color: var(--deep-green);
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumbs.positive a:hover {
+  color: var(--charcoal);
 }
 .breadcrumbs.negative {
   position: relative;
@@ -349,6 +357,10 @@ div.cards-group {
 }
 .breadcrumbs.negative a {
   color: var(--light-blue);
+  transition: all 0.3s ease-in-out;
+}
+.breadcrumbs.negative a:hover {
+  color: var(--cream);
 }
 
 

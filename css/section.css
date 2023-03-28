@@ -86,6 +86,10 @@
 }
 .breadcrumbs a {
     color: var(--deep-green);
+    transition: all 0.3s ease-in-out;
+}
+.breadcrumbs a:hover {
+    color: var(--charcoal);
 }
 
 /* Page Title and Description */
