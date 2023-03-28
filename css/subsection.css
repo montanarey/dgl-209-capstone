@@ -147,6 +147,9 @@ p.color-codes {
 .deep-green {
   background-color: var(--deep-green);
 }
+.leaf-green {
+  background-color: var(--leaf-green);
+}
 .light-blue {
   background-color: var(--light-blue);
 }
@@ -841,5 +844,5 @@ input[type="submit"]:hover {
   content: "•";
   padding-right: 10px;
   font-size: 1.2rem;
-  color: var(--deep-green);
+  color: var(--leaf-green);
 }
