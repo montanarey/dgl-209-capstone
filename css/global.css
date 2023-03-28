@@ -171,6 +171,9 @@ footer {
 .contact-info > p > a {
   color: var(--light-blue);
 }
+.contact-info > p > a:hover {
+  color: var(--cream);
+}
 
 /* ---------- Media Queries ---------- */
 
