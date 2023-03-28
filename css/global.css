@@ -161,8 +161,9 @@ footer {
 .contact-info {
   text-align: right;
 }
-.contact-info > h4 {
+.contact-info .contact-heading {
   font-weight: 800;
+  margin-bottom: 5px;
   color: var(--cream);
 }
 .contact-info p {
