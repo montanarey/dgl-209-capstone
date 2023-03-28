@@ -7,200 +7,204 @@
 
 /* Breadcrumbs */
 .breadcrumbs {
-    z-index: 1;
+  z-index: 1;
 }
 
 /* Hero Section */
 .sample-hero {
-    margin-top: 49px;
+  margin-top: 49px;
 }
 .sample-hero h1 {
-    padding: 0;
+  padding: 0;
 }
 .sample-hero p {
-    margin: 0;
+  margin: 0;
 }
 .demo-button-group {
-    margin-top: 25px;
-    display: flex;
-    gap: 25px;
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 /* About / Form Section */
 div.cols {
-    padding: 25px 0;
+  padding: 25px 0;
 }
-.cols p.section-description, .cols .unordered-list {
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 0;
+.cols p.section-description,
+.cols .unordered-list {
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 .list-title {
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
-.about p, .form p {
-    width: 100%;
+.about p,
+.form p {
+  width: 100%;
 }
 form {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 /* Features Section */
 .features {
-    background-color: var(--ash-grey);
-    padding: 25px;
+  background-color: var(--ash-grey);
+  padding: 25px;
 }
 .features h2 {
-    text-align: center;
-    padding-bottom: 25px;
+  text-align: center;
+  padding-bottom: 25px;
 }
 .vertical-cards {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 .card.vertical {
-    background-color: white;
-    width: 33%;
+  background-color: white;
+  width: 33%;
 }
 .card.vertical .card-title {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Profile Section */
 .profile-section {
-    width: 100%;
-    margin: 0;
-    padding: 25px;
+  width: 100%;
+  margin: 0;
+  padding: 25px;
 }
 .profile-section .section-title {
-    text-align: center;
+  text-align: center;
 }
 .profile {
-    width: 100%;
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
 }
 .profile .avatar {
-    min-width: 125px;
+  min-width: 125px;
 }
 .profile-info {
-    width: fit-content;
+  width: fit-content;
 }
-.profile-info h3, .profile-info p {
-    margin-bottom: 10px
+.profile-info h3,
+.profile-info p {
+  margin-bottom: 10px;
 }
 
 /* Submenu Section */
 .submenu-section {
-    width: 100%;
-    margin: 0;
-    padding: 25px;
-    background-color: var(--light-blue);
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  background-color: var(--light-blue);
 }
 .submenu-section h2 {
-    text-align: center;
+  text-align: center;
 }
 .submenu-section .submenu-sample {
-    height: 115px;
-    width: 80%;
-    margin: 25px auto;
-    background-color: white;
+  height: 115px;
+  width: 80%;
+  margin: 25px auto;
+  background-color: white;
 }
 .submenu-sample.mobile {
-    display: none;
+  display: none;
 }
 
 /* Horizontal Card Section */
 .horizontal-card-section {
-    width: 100%;
-    margin: 0;
-    padding: 25px;
-    background-color: var(--ash-grey);
+  width: 100%;
+  margin: 0;
+  padding: 25px;
+  background-color: var(--ash-grey);
 }
 .card.horizontal {
-    width: 80%;
-    margin: 0 auto;
-    background-color: white;
-    height: auto;
-    max-height: 275px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  height: auto;
+  max-height: 275px;
 }
 .card.horizontal a {
-    margin: 0;
+  margin: 0;
 }
 .card.horizontal .card-content {
-    padding: 25px;
-    justify-content: space-between;
+  padding: 25px;
+  justify-content: space-between;
 }
 
 /* Media Queries */
 @media only screen and (max-width: 1000px) {
-    div.cols {
-        flex-direction: column;
-        gap: 0;
-        padding: 25px 0 0 0;
-        width: 100%;
-    }
-    .section.about {
-        width: 100%;
-        margin-left: 0;
-        padding: 0 25px;
-    }
-    .section.form {
-        background-color: var(--light-blue);
-        width: 100%;
-        margin-left: 0;
-    }
-    .section.form .section-title, .section.form .section-description {
-        padding: 25px 25px 0 25px;
-        margin: 0;
-    }
-    .section.form form {
-        padding: 25px;
-    }
-    .card.horizontal {
-        max-height: fit-content;
-    }
-    .submenu-sample.desktop {
-        display: none;
-    } 
-    .submenu-sample.mobile {
-        display: block;
-        height: 170px;
-    }
-    .submenu {
-        width: 100%;
-    }
-    .mobile .submenu-button {
-        width: 100%;
-        margin: 0;
-        text-align: center;
-        border-radius: 5px 5px 0 0;
-    }
-    .submenu-content {
-        display: none;
-        position: absolute;
-        text-align: center;
-        left: 0px;
-        top: 53px;
-        z-index: unset;
-        border-radius: 0 0 5px 5px;
-    }
-    .submenu:hover .submenu-content {
-        flex-direction: column;
-    }
+  div.cols {
+    flex-direction: column;
+    gap: 0;
+    padding: 25px 0 0 0;
+    width: 100%;
+  }
+  .section.about {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 25px;
+  }
+  .section.form {
+    background-color: var(--light-blue);
+    width: 100%;
+    margin-left: 0;
+  }
+  .section.form .section-title,
+  .section.form .section-description {
+    padding: 25px 25px 0 25px;
+    margin: 0;
+  }
+  .section.form form {
+    padding: 25px;
+  }
+  .card.horizontal {
+    max-height: fit-content;
+  }
+  .submenu-sample.desktop {
+    display: none;
+  }
+  .submenu-sample.mobile {
+    display: block;
+    height: 170px;
+  }
+  .submenu {
+    width: 100%;
+  }
+  .mobile .submenu-button {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+  }
+  .submenu-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 53px;
+    z-index: unset;
+    border-radius: 0 0 5px 5px;
+  }
+  .submenu:hover .submenu-content {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .vertical-cards {
-        flex-direction: column;
-        align-items: center;
-    }
-    .card.vertical {
-        width: 80%;
-    }
-    .horizontal-card-section {
-        display: none;
-    }
+  .vertical-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card.vertical {
+    width: 80%;
+  }
+  .horizontal-card-section {
+    display: none;
+  }
 }

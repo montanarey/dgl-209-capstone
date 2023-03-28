@@ -9,158 +9,160 @@
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../images/houseplants-row.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../images/houseplants-row.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 .hero h1 {
-    width: 100%;
-    color: var(--cream);
-    text-align: left;
-    margin-top: 25px;
-    padding: 25px;
+  width: 100%;
+  color: var(--cream);
+  text-align: left;
+  margin-top: 25px;
+  padding: 25px;
 }
 .introduction {
-    font-size: 1.2rem;
-    padding: 25px;
-    width: 80%;
-    margin-bottom: 25px;
-    color: var(--cream);
+  font-size: 1.2rem;
+  padding: 25px;
+  width: 80%;
+  margin-bottom: 25px;
+  color: var(--cream);
 }
 
 /* Section Cards */
 .card-list {
-    width: 100%;
+  width: 100%;
 }
 .card-list .card {
-    margin: 25px;
-    height: fit-content;
-    min-height: 250px;
+  margin: 25px;
+  height: fit-content;
+  min-height: 250px;
 }
 .card-list .card-img {
-    height: 250px;
+  height: 250px;
 }
 .card-list .card-content {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 .card-list .card-button {
-    margin: 25px 25px 0 0;
-    text-decoration: none;
+  margin: 25px 25px 0 0;
+  text-decoration: none;
 }
 
 /* Banner */
 .banner {
-    background-color: var(--light-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: fit-content;
-    padding: 25px;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: fit-content;
+  padding: 25px;
 }
 .banner h3 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .banner a {
-    margin: 0;
+  margin: 0;
 }
 
 /* ---------- Section Pages ---------- */
 
 /* Breadcrumbs */
 .breadcrumbs {
-    width: 100%;
-    background-color: white;
-    box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.2);
-    padding: 15px 25px;
-    color: var(--charcoal);
-    position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.2);
+  padding: 15px 25px;
+  color: var(--charcoal);
+  position: fixed;
 }
 .breadcrumbs li {
-    display: inline;
+  display: inline;
 }
 .breadcrumbs a {
-    color: var(--deep-green);
-    transition: all 0.3s ease-in-out;
+  color: var(--deep-green);
+  transition: all 0.3s ease-in-out;
 }
 .breadcrumbs a:hover {
-    color: var(--charcoal);
+  color: var(--charcoal);
 }
 
 /* Page Title and Description */
 h1 {
-    margin-top: 75px;
-    margin-bottom: 10px;
+  margin-top: 75px;
+  margin-bottom: 10px;
 }
-h1, .section-description {
-    padding-left: 25px;
-    padding-bottom: 10px;
-    width: 80%;
-    color: var(--charcoal);
+h1,
+.section-description {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  width: 80%;
+  color: var(--charcoal);
 }
 
 /* Subsection Cards */
 .subsection-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 25px;
-    color: var(--charcoal);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 25px;
+  color: var(--charcoal);
 }
 .subsection-list-item {
-    margin-bottom: 50px; 
-    width: 50%;
+  margin-bottom: 50px;
+  width: 50%;
 }
 .subsection-list-item h4 {
-    background-color: var(--ash-grey);
-    padding: 10px;
+  background-color: var(--ash-grey);
+  padding: 10px;
 }
 .subsection-list-item p {
-    padding: 10px 0;
-    width: 80%;
+  padding: 10px 0;
+  width: 80%;
 }
 .subsection-list-item a {
-    display: block;
-    width: fit-content;
-    padding: 10px;
-    border: 2px solid var(--deep-green);
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  border: 2px solid var(--deep-green);
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 .subsection-list-item a:hover {
-    background-color: var(--deep-green);
-    color: var(--cream);
+  background-color: var(--deep-green);
+  color: var(--cream);
 }
 
 @media only screen and (max-width: 768px) {
-    #home-mobile-nav-menu {
-        top: 83px;
-      }
-    .introduction {
-        width: 100%;
-    }
-    .subsection-list-item {
-        width: 100%;
-    }
-    .card-list .card {
-        flex-direction: column;
-    }
-    .card-list .card-img {
-        height: 150px;
-        width: 100%;
-        border-radius: 5px 5px 0 0;
-    }
-    .card-list .card-content {
-        width: 100%;
-        text-align: center;
-    }
-    .card-list .card-button {
-        margin: 25px auto 0 auto;
-    }
+  #home-mobile-nav-menu {
+    top: 83px;
+  }
+  .introduction {
+    width: 100%;
+  }
+  .subsection-list-item {
+    width: 100%;
+  }
+  .card-list .card {
+    flex-direction: column;
+  }
+  .card-list .card-img {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .card-list .card-content {
+    width: 100%;
+    text-align: center;
+  }
+  .card-list .card-button {
+    margin: 25px auto 0 auto;
+  }
 }

@@ -11,7 +11,7 @@
   color: var(--charcoal);
   width: 100%;
   background-color: white;
-  box-shadow: 0px 6px 20px -10px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 20px -10px rgba(0, 0, 0, 0.2);
   position: fixed;
   z-index: 1;
 }
@@ -39,7 +39,7 @@
   width: 80%;
   color: var(--charcoal);
 }
-.cols{
+.cols {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -75,7 +75,10 @@
 .quick-summary.section p {
   margin-bottom: 0;
 }
-.section-title, .section-description, .section h3, .section p {
+.section-title,
+.section-description,
+.section h3,
+.section p {
   margin-bottom: 25px;
 }
 .example-block {
@@ -90,7 +93,6 @@
 .example-block.negative {
   background-color: var(--charcoal);
 }
-
 
 /* ----- Styles: Colours ----- */
 .color-cards {
@@ -126,7 +128,8 @@
 .charcoal {
   background-color: var(--charcoal);
 }
-.charcoal .color-name, .deep-green .color-name {
+.charcoal .color-name,
+.deep-green .color-name {
   color: white;
 }
 .deep-green {
@@ -167,6 +170,7 @@ div.images-group {
   height: fit-content;
   margin: 10px;
 }
+
 /* General Images */
 .general-img img {
   width: inherit;
@@ -234,9 +238,10 @@ div.cards-group {
   padding: 0 0 25px 25px;
   width: fit-content;
 }
+
 /* Text Spacing */
 .example-block.spacing h3 {
-  padding-top: 25px;;
+  padding-top: 25px;
 }
 
 /* Image Spacing */
@@ -247,6 +252,7 @@ div.cards-group {
 .image.image-spacing {
   margin: 0 25px 0 0;
 }
+
 /* Button Spacing */
 .example-block.spacing button {
   display: block;
@@ -270,6 +276,7 @@ div.cards-group {
     width: 100%;
   }
 }
+
 /* Typography Colour Styles */
 .positive * {
   color: var(--charcoal);
@@ -288,6 +295,7 @@ div.cards-group {
 .negative a:hover {
   color: var(--cream);
 }
+
 /* Typography Font Styles */
 .typography-sets h1 {
   font-weight: 900;
@@ -363,7 +371,6 @@ div.cards-group {
   color: var(--cream);
 }
 
-
 /* ----- Navigation: Buttons ----- */
 .example-block.button-group {
   width: fit-content;
@@ -384,6 +391,7 @@ div.cards-group {
   width: fit-content;
   text-decoration: none;
 }
+
 /* Outlined Positive Styles */
 .button.outlined.positive.charcoal {
   background-color: white;
@@ -508,6 +516,7 @@ div.mobile {
   padding: 25px;
   cursor: pointer;
 }
+
 /* Desktop Only */
 .desktop .sample-nav-menu-item {
   display: inline;
@@ -525,6 +534,7 @@ div.mobile {
 .desktop .sample-hamburger {
   display: none;
 }
+
 /* Mobile Only */
 .mobile .sample-bar {
   display: block;
@@ -574,6 +584,7 @@ div.mobile {
   height: 300px;
   position: relative;
 }
+
 /* Navbar Submenu Example */
 .submenu-sample .nav {
   background-color: var(--charcoal);
@@ -633,6 +644,7 @@ p.submenu-item {
 .submenu-item-link:hover {
   text-decoration: underline;
 }
+
 /* Button Submenu Example */
 .submenu-sample.mobile {
   display: block;
@@ -664,7 +676,6 @@ p.submenu-item {
     width: 100%;
   }
 }
-
 
 /* ----- Components: Cards ----- */
 .card {
@@ -733,37 +744,37 @@ p.submenu-item {
 
 /* ----- Components: Avatars ----- */
 .avatar-group {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: fit-content;
-    padding: 25px;
-  }
-  .avatar {
-    margin: 10px;
-    display: block;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid var(--charcoal);
-  }
-  .avatar.small {
-    width: 50px;
-    height: 50px;
-  }
-  .avatar.medium {
-    width: 80px;
-    height: 80px;
-  }
-  .avatar.large {
-    width: 125px;
-    height: 125px;
-  }
-  .avatar img {
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
-    object-position: center;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  padding: 25px;
+}
+.avatar {
+  margin: 10px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--charcoal);
+}
+.avatar.small {
+  width: 50px;
+  height: 50px;
+}
+.avatar.medium {
+  width: 80px;
+  height: 80px;
+}
+.avatar.large {
+  width: 125px;
+  height: 125px;
+}
+.avatar img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: center;
+}
 
 /* ----- Components: Forms ----- */
 .example-block.form {
@@ -776,14 +787,15 @@ form {
   width: 100%;
   padding: 0 25px;
 }
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 10px 0 20px 0;
   border-radius: 5px;
   border: 2px solid var(--deep-green);
 }
-input[type=checkbox] {
+input[type="checkbox"] {
   width: auto;
   margin: 0 0 10px 0;
 }
@@ -791,14 +803,14 @@ textarea {
   width: 100%;
   resize: none;
 }
-input[type=submit] {
+input[type="submit"] {
   font-size: 1rem;
   background-color: var(--charcoal);
   color: var(--cream);
   transition: all 0.3s ease-in-out;
   border: none;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: var(--deep-green);
 }
 
@@ -811,6 +823,7 @@ input[type=submit]:hover {
   padding-top: 25px;
   font-weight: 700;
 }
+
 /* Ordered Lists */
 .ordered-list {
   margin: 0 25px;

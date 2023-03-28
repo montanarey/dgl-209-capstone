@@ -27,8 +27,8 @@ body {
 }
 :root {
   --charcoal: #2f3e46;
-  --deep-green: #4E7E76;
-  --leaf-green: #90B6A1;
+  --deep-green: #4e7e76;
+  --leaf-green: #90b6a1;
   --light-blue: #a6d5dd;
   --cream: #f2f8f3;
   --ash-grey: #abb9b9;
@@ -184,7 +184,7 @@ footer {
   }
   .nav-logo {
     margin: 10px 25px;
-    width: 60%
+    width: 60%;
   }
   .nav-logo img {
     width: 100%;
