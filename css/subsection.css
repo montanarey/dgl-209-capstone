@@ -345,7 +345,6 @@ div.cards-group {
 
 /* ----- Navigation: Breadcrumbs ----- */
 .breadcrumbs.positive {
-  position: relative;
   background-color: var(--cream);
 }
 .breadcrumbs.positive li {
@@ -359,7 +358,6 @@ div.cards-group {
   color: var(--charcoal);
 }
 .breadcrumbs.negative {
-  position: relative;
   background-color: var(--charcoal);
 }
 .breadcrumbs.negative li {
