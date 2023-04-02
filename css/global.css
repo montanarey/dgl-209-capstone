@@ -121,8 +121,9 @@ header {
   min-width: 230px;
 }
 .desktop-nav-content {
-  position: fixed;
-  padding: 25px;
+  position: sticky;
+  top: 78.88px;
+  padding: 25px 25px 0 25px;
   max-width: initial;
 }
 .desktop-nav-content a {
