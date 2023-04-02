@@ -403,7 +403,7 @@ div.cards-group {
 }
 .button.outlined.positive.charcoal:hover {
   background-color: var(--charcoal);
-  color: var(--cream);
+  color: white;
 }
 .button.outlined.positive.deep-green {
   background-color: white;
@@ -412,14 +412,14 @@ div.cards-group {
 }
 .button.outlined.positive.deep-green:hover {
   background-color: var(--deep-green);
-  color: var(--cream);
+  color: white;
 }
 
 /* Outlined Negative Styles */
 .button.outlined.negative.charcoal {
   background-color: var(--charcoal);
   border: 2px solid var(--charcoal);
-  color: var(--cream);
+  color: white;
 }
 .button.outlined.negative.charcoal:hover {
   background-color: white;
@@ -428,7 +428,7 @@ div.cards-group {
 .button.outlined.negative.deep-green {
   background-color: var(--deep-green);
   border: 2px solid var(--deep-green);
-  color: var(--cream);
+  color: white;
 }
 .button.outlined.negative.deep-green:hover {
   background-color: white;
@@ -457,7 +457,7 @@ div.cards-group {
 .button.solid.charcoal {
   background-color: var(--charcoal);
   border: none;
-  color: var(--cream);
+  color: white;
 }
 .button.solid.charcoal:hover {
   background-color: var(--deep-green);
@@ -465,7 +465,7 @@ div.cards-group {
 .button.solid.deep-green {
   background-color: var(--deep-green);
   border: none;
-  color: var(--cream);
+  color: white;
 }
 .button.solid.deep-green:hover {
   background-color: var(--charcoal);
@@ -476,8 +476,7 @@ div.cards-group {
   color: var(--charcoal);
 }
 .button.solid.light-blue:hover {
-  background-color: var(--charcoal);
-  color: var(--cream);
+  background-color: var(--ash-grey);
 }
 .button.solid.ash-grey {
   background-color: var(--ash-grey);
@@ -485,8 +484,7 @@ div.cards-group {
   color: var(--charcoal);
 }
 .button.solid.ash-grey:hover {
-  background-color: var(--deep-green);
-  color: var(--cream);
+  background-color: var(--light-blue);
 }
 
 /* ----- Navigation: Navbars ----- */
