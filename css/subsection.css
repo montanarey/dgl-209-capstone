@@ -35,7 +35,7 @@
   width: 80%;
 }
 .section {
-  margin-left: 25px;
+  padding-left: 25px;
   width: 80%;
   color: var(--charcoal);
 }
@@ -59,6 +59,7 @@
 }
 .quick-summary {
   margin: 0 0 25px 25px;
+
   padding: 10px;
   border: 5px dotted var(--ash-grey);
 }
