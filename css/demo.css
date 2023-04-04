@@ -22,6 +22,20 @@
   display: flex;
   gap: 25px;
 }
+.demo-button-group button {
+  min-width: 140px;
+}
+@media only screen and (max-width: 768px) {
+   .demo-button-group {
+    margin-top: 25px;
+    flex-wrap: wrap;
+  }
+  .demo-button-group a {
+    margin: 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+}
 
 /* About / Form Section */
 div.cols {
@@ -193,7 +207,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
   .vertical-cards {
     flex-direction: column;
     align-items: center;
